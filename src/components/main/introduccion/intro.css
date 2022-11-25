@@ -8,14 +8,35 @@
 
 .intro-carrusel-imagen {
   width: 200px;
-  height: 300px;
+  height: 450px;
   object-fit: cover;
   filter: invert(0.4) sepia(1) hue-rotate(20deg);
 }
 
-.intro-carrusel-elemento {
-  background-color: red;
+.intro-carrusel-contenido-imagen {
+  width: 300px;
+  object-fit: contain;
 }
 
-.carousel-control-prev-icon {
+.carousel-caption {
+  background-color: aqua !important;
+  max-width: 600px;
+}
+
+.intro-contenedor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.intro-contenedor-informacion{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.intro-contenedor-informacion .intro-carrusel-contenido-imagen{
+
 }
