@@ -1,7 +1,9 @@
+import { Intro } from "./introduccion/Intro";
+
 export const Main = () => {
   return (
     <main>
-      <h1>EAMLTDA Title</h1>
+      <Intro />
     </main>
   );
 };
