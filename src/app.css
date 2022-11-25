@@ -1,0 +1,23 @@
+#bigBox {
+  position: absolute;
+  width: 100%;
+  background-image: url('./imagenes/mainBG.jpg');
+  
+}
+
+#bigBox-app {
+  width: 70%;
+  margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  #bigBox-app {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #bigBox-app {
+    width: 95%;
+  }
+}

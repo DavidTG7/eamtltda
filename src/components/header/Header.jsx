@@ -6,7 +6,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 export const Header = () => {
   return (
     <header>
-      <Navbar bg="primary" variant="dark" expand="lg">
+      <Navbar bg="primary" variant="dark" expand="lg" style={headerStyle}>
         <Container>
           <Navbar.Brand href="#home" style={{ fontWeight: "bold" }}>
             EAMLTADA
@@ -36,4 +36,10 @@ export const Header = () => {
       </Navbar>
     </header>
   );
+};
+
+const headerStyle = {
+  marginTop: "30px",
+  borderTopRightRadius: "10px",
+  borderTopLeftRadius: "10px",
 };
