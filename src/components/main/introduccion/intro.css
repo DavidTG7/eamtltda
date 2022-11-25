@@ -5,3 +5,17 @@
 .intro-titulo {
   color: green;
 }
+
+.intro-carrusel-imagen {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  filter: invert(0.4) sepia(1) hue-rotate(20deg);
+}
+
+.intro-carrusel-elemento {
+  background-color: red;
+}
+
+.carousel-control-prev-icon {
+}
