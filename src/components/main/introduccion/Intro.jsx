@@ -65,8 +65,10 @@ export const Intro = () => {
             </div>
             <div className="intro-contenedor-imagen">
               <img
+              className="d-block w-100 intro-carrusel-imagen"
               src={fondo3}
-              />
+              alt="Third slide"
+              />  
             </div>
           </div>
         </Carousel.Item>
