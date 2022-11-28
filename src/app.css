@@ -1,8 +1,7 @@
 #bigBox {
   position: absolute;
   width: 100%;
-  background-image: url('./imagenes/mainBG.jpg');
-  
+  background-image: url('./imagenes/mainBG.jpg');  
 }
 
 #bigBox-app {
