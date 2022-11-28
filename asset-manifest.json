@@ -1,10 +1,18 @@
 {
   "files": {
-    "main.js": "/eamtltda/static/js/main.7b1409be.js",
+    "main.css": "/eamtltda/static/css/main.e45e9723.css",
+    "main.js": "/eamtltda/static/js/main.dc72f6cb.js",
+    "static/media/mainBG.jpg": "/eamtltda/static/media/mainBG.daaa7826e317889a3b08.jpg",
+    "static/media/valores.jpg": "/eamtltda/static/media/valores.15255933cf982be81683.jpg",
+    "static/media/Fondo_login2.png": "/eamtltda/static/media/Fondo_login2.908db4bc86a8fae3cf9c.png",
+    "static/media/principios2.jpg": "/eamtltda/static/media/principios2.1ef9f3e37b88d86c4047.jpg",
+    "static/media/Logo_Editado.png": "/eamtltda/static/media/Logo_Editado.14cb8fdf4d7adfdfa068.png",
     "index.html": "/eamtltda/index.html",
-    "main.7b1409be.js.map": "/eamtltda/static/js/main.7b1409be.js.map"
+    "main.e45e9723.css.map": "/eamtltda/static/css/main.e45e9723.css.map",
+    "main.dc72f6cb.js.map": "/eamtltda/static/js/main.dc72f6cb.js.map"
   },
   "entrypoints": [
-    "static/js/main.7b1409be.js"
+    "static/css/main.e45e9723.css",
+    "static/js/main.dc72f6cb.js"
   ]
 }
