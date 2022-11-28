@@ -15,12 +15,12 @@ export const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <NavDropdown title="Empresa" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Misión</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Visión</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
+                <NavDropdown.Item href="#mision">Misión</NavDropdown.Item>
+                <NavDropdown.Item href="#vision">Visión</NavDropdown.Item>
+                <NavDropdown.Item href="#politicas-calidad">
                   Políticas de Calidad
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
+                <NavDropdown.Item href="#objetivos-calidad">
                   Objetivos de Calidad
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
