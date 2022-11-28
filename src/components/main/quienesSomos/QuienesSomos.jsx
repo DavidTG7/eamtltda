@@ -2,7 +2,7 @@ import Card from "react-bootstrap/Card";
 
 export const QuienesSomos = () => {
   return (
-    <section id="quienes-somos">
+    <section id="quienes-somos" style={{ textAlign: "justify" }}>
       <Card>
         <Card.Header as="h5">¿Quiénes somos?</Card.Header>
         <Card.Body>
@@ -13,6 +13,7 @@ export const QuienesSomos = () => {
             detección de riesgos, diseño de estrategias, ejecución de planes de
             acción y apoya las iniciativas de documentación, implementación y
             automatización de Procesos de Negocios.
+            <br />
             <br />
             Ponemos al servicio de nuestros aliados estratégicos la experiencia
             adquirida en la participación de proyectos en el sector público y
