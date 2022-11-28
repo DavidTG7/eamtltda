@@ -1,13 +1,16 @@
 import { Empresa } from "./empresa/Empresa";
 import { Intro } from "./introduccion/Intro";
 import { Nosotros } from "./nosotros/Nosotros";
+import { QuienesSomos } from "./quienesSomos/QuienesSomos";
+import "./main.css";
 
 export const Main = () => {
   return (
-    <main>
+    <main id="main-box">
       <Intro />
-      <Nosotros />
+      <QuienesSomos />
       <Empresa />
+      <Nosotros />
     </main>
   );
 };

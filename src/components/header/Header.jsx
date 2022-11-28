@@ -14,6 +14,7 @@ export const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
+              <Nav.Link href="#quienes-somos">¿Quiénes somos?</Nav.Link>
               <NavDropdown title="Empresa" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#mision">Misión</NavDropdown.Item>
                 <NavDropdown.Item href="#vision">Visión</NavDropdown.Item>
@@ -28,7 +29,6 @@ export const Header = () => {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#home">¿Quiénes somos?</Nav.Link>
               <Nav.Link href="#link">Servicios</Nav.Link>
             </Nav>
           </Navbar.Collapse>
