@@ -7,7 +7,6 @@ import { MdWhereToVote } from "react-icons/md";
 import { RiTeamFill } from "react-icons/ri";
 
 
-import logo from '../../../imagenes/Logo_Editado.png';
 
 export const Nosotros = () => {
   return (
