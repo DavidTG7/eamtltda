@@ -12,11 +12,8 @@ export const Main = () => {
       <Intro />
       <Empresa />
       <Nosotros />
-<<<<<<< HEAD
       <Contacto />
-=======
-      <Servicios /> 
->>>>>>> 79c1f6abc61e4a799c4e49d2e62954ef1531a33e
+      <Servicios />
     </main>
   );
 };
