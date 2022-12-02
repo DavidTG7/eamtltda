@@ -2,11 +2,18 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import "./header.css";
 
 export const Header = () => {
   return (
     <header>
-      <Navbar bg="primary" variant="dark" expand="lg" style={headerStyle}>
+      <Navbar
+        id="header"
+        collapseOnSelect="true"
+        bg="dark"
+        variant="dark"
+        expand="lg"
+      >
         <Container>
           <Navbar.Brand href="#home" style={{ fontWeight: "bold" }}>
             EAMLTADA
@@ -36,10 +43,4 @@ export const Header = () => {
       </Navbar>
     </header>
   );
-};
-
-const headerStyle = {
-  marginTop: "30px",
-  borderTopRightRadius: "10px",
-  borderTopLeftRadius: "10px",
 };
