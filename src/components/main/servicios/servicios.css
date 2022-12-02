@@ -1,0 +1,19 @@
+.contenedor-servicios-general {
+  background-color: azure;
+}
+
+.contenedor-servicios-tabs {
+  padding: 40px;
+}
+
+.contenedor-servicios-tabs{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contenedor-servicios-tabs-imagen{
+  width: 100px;
+}

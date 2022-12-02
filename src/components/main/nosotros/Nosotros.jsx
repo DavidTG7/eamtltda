@@ -1,6 +1,12 @@
 import "./nosotros.css";
-import { FaHeart } from "react-icons/fa";
-import logo from '../../../imagenes/Logo_Editado.png';
+import { FaBuilding } from "react-icons/fa";
+import { GiNetworkBars } from "react-icons/gi";
+import { BiUserCheck } from "react-icons/bi";
+import { CgAwards } from "react-icons/cg";
+import { MdWhereToVote } from "react-icons/md";
+import { RiTeamFill } from "react-icons/ri";
+
+
 
 export const Nosotros = () => {
   return (
@@ -9,30 +15,30 @@ export const Nosotros = () => {
       <div className="nosotros-container-compañia">
         <h2>Compañia</h2>
         <div className="nosotros-container">
-          <div className="nosotros-container-item">
-              <FaHeart className="nosotros-container-img"/>
+          <a href="#" className="nosotros-container-item">
+              <FaBuilding className="nosotros-container-item-icons"/>
               <p>Nosotros</p>
-          </div>
-          <div className="nosotros-container-item">
-              <FaHeart className="nosotros-container-img"/>
+          </a>
+          <a href="#" className="nosotros-container-item">
+              <GiNetworkBars className="nosotros-container-item-icons"/>
               <p>Trayectoria</p>
-          </div>
-          <div className="nosotros-container-item">
-              <FaHeart className="nosotros-container-img"/>
+          </a>
+          <a href="#" className="nosotros-container-item">
+              <BiUserCheck className="nosotros-container-item-icons"/>
               <p>Clientes</p>
-          </div>
-          <div className="nosotros-container-item">
-              <FaHeart className="nosotros-container-img"/>
+          </a>
+          <a href="#" className="nosotros-container-item">
+              <CgAwards className="nosotros-container-item-icons"/>
+              <p>Reconocimientos y Premios</p>
+          </a>
+          <a href="#" className="nosotros-container-item">
+              <MdWhereToVote className="nosotros-container-item-icons"/>
               <p>Donde estamos</p>
-          </div>
-          <div className="nosotros-container-item">
-              <FaHeart className="nosotros-container-img"/>
-              <p>Donde estamos</p>
-          </div>
-          <div className="nosotros-container-item">
-              <FaHeart className="nosotros-container-img"/>
-              <p>Donde estamos</p>
-          </div>
+          </a>
+          <a href="#" className="nosotros-container-item">
+              <RiTeamFill className="nosotros-container-item-icons" />
+              <p>Nuestro Equipo</p>
+          </a>
         </div>
       </div>
     </div>
