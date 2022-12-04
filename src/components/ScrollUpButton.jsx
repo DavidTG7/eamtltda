@@ -52,6 +52,6 @@ const styles = {
   bottom: "10px",
   right: "10px",
   cursor: "pointer",
-  boxShadow: "0 0 20px black",
+  // boxShadow: "0 0 20px black",
   transition: ".3s",
 };
