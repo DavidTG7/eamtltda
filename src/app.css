@@ -1,7 +1,11 @@
 #bigBox {
   position: absolute;
   width: 100%;
+  background: rgb(237, 237, 237);
   background-image: url('./imagenes/mainBG2.jpg');
+  
+  background-repeat: no-repeat;
+  background-size: 100% 50rem;
   /* filter: blur(8px); */
 }
 
