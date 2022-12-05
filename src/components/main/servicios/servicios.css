@@ -17,3 +17,42 @@
 .contenedor-servicios-tabs-imagen{
   width: 100px;
 }
+
+.servicios-contenedor{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: azure;
+  padding: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+  border: 1px solid gray;
+}
+
+.servicios-contenedor-img{
+  object-fit: cover;
+  max-width: 500px;
+  width: 100%;
+}
+
+.servicios-contenedor-texto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  max-width: 500px;
+  width: 50%;
+}
+.servicios-contenedor-texto-caracteristicas li{
+  /* text-transform: lowercase; */
+  text-align: left;
+}
+
+@media (max-width: 850px) {
+  .servicios-contenedor-texto{
+    max-width: 500px;
+    width: 100%;
+  }
+
+}
