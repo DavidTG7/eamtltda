@@ -27,11 +27,12 @@
   flex-direction: column;
   text-align: center;
   text-decoration: none;
-  transition: all .3 ease-in-out;
+  transition: all 0.3 ease-in-out;
+  color: rgb(45, 165, 240);
 }
 
-.nosotros-container-item:hover  {
-  transform: translate(0px,-5px);
+.nosotros-container-item:hover {
+  transform: translate(0px, -5px);
   color: red;
 }
 
@@ -48,5 +49,6 @@
 
 .nosotros-container-item-icons {
   font-size: 50px;
-  color: rgb(9, 92, 107);
+  color: #000;
+  width: 50%;
 }

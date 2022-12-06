@@ -1,98 +1,22 @@
 import "./servicios.css";
-import Tab from 'react-bootstrap/Tab';
-import Tabs from 'react-bootstrap/Tabs';
-import { RiTeamFill } from "react-icons/ri";
-import logo from '../../../imagenes/Logo_Editado.png';
-import IRiesgos from '../../../imagenes/GestionDeRiesgo.png';
-import IAnalisisSeguridad from '../../../imagenes/AnalisisDeSeguridad.png';
-import IControlDeAcesso from '../../../imagenes/ControlDeAcesso.png';
-import IPoliticas from '../../../imagenes/PoliticasDeSeguridad.png';
-import IMonitoreo from '../../../imagenes/MonitoreoDeSeguridad.png';
-import IProteccion from '../../../imagenes/Proteccion.png';
-import IAuditoria from '../../../imagenes/Auditoria.png';
-import IPersonalSeguridad from '../../../imagenes/PersonalSeguridad.png';
-import IProcesos from '../../../imagenes/Procesos.png';
-import IPortalWeb from '../../../imagenes/PortalesWeb.png';
-import IPlaneacion from '../../../imagenes/Planeacion.png';
-import IRedes from '../../../imagenes/redes.png';
-import IInterventoria from '../../../imagenes/interventoria.png';
-import ISistemas from '../../../imagenes/Sistemas.png';
+import IRiesgos from './image/GestionDeRiesgo.png';
+import IAnalisisSeguridad from './image/AnalisisDeSeguridad.png';
+import IControlDeAcesso from './image/ControlDeAcesso.png';
+import IPoliticas from './image/PoliticasDeSeguridad.png';
+import IMonitoreo from './image/MonitoreoDeSeguridad.png';
+import IProteccion from './image/Proteccion.png';
+import IPersonalSeguridad from './image/PersonalSeguridad.png';
+import IAuditoria from './image/Auditoria.png';
+import IProcesos from './image/Procesos.png';
+import IPortalWeb from './image/PortalesWeb.png';
+import IPlaneacion from './image/Planeacion.png';
+import IRedes from './image/redes.png';
+import IInterventoria from './image/interventoria.png';
+import ISistemas from './image/Sistemas.png';
 import Button from 'react-bootstrap/Button';
 
 export const Servicios = () => {
   return (
-    // <div className="contenedor-servicios-general">
-    //   <Tabs
-    //   defaultActiveKey="gestion_riesgos"
-    //   id="uncontrolled-tab-example"
-    //   className="mb-3"
-    // >
-    //   <Tab className="contenedor-servicios-tabs" eventKey="gestion_riesgos" 
-    //     title={
-    //       <span className="contenedor-servicios-tabs">
-    //         <img
-    //             className="contenedor-servicios-tabs-imagen"
-    //             src={logo}
-    //             alt="Logo"
-    //         />
-    //         Gestion de Riesgos
-    //       </span>
-    //       }>
-    //     <div>
-    //       <ul>
-    //         <li>ANÁLISIS DE RIESGOS.</li>
-    //         <li>MANTENIMIENTO DE MAPAS DE RIESGOS.</li>
-    //         <li>PRUEBAS DE INTRUSION DE SISTEMAS.</li>
-    //         <li>MONITOREO DE EVENTOS DE SEGURIDAD.</li>
-    //         <li>ADMINISTRACIÓN DE INCIDENTES DE SEGURIDAD.</li>
-    //         <li>DISENO DE PROCEDIWENTOS DE SEGURIDAD.</li>
-    //       </ul>
-    //     </div>
-    //   </Tab>
-    //   <Tab className="contenedor-servicios-tabs"
-    //   eventKey="seguridad" 
-    //   title={
-    //     <span className="contenedor-servicios-tabs">
-    //       <img
-    //           className="contenedor-servicios-tabs-imagen"
-    //           src={logo}
-    //           alt="Logo"
-    //       />
-    //       Analisis De Seguridad
-    //     </span>
-    //     }>
-    //   <div>
-    //       <ul>
-    //         <li>GAP DEL ESTADO DE SEGURIDAD.</li>
-    //         <li>ANÁLISIS DE MADUREZ DE SEGURIDAD.</li>
-    //         <li>DISEÑO DE SOLUCIONES DE SEGURIDAD.</li>
-    //       </ul>
-    //     </div>
-    //   </Tab>
-    //   <Tab className="contenedor-servicios-tabs" 
-    //   eventKey="Acceso" 
-    //   title={
-    //     <span className="contenedor-servicios-tabs">
-    //       <img
-    //           className="contenedor-servicios-tabs-imagen"
-    //           src={logo}
-    //           alt="Logo"
-    //       />
-    //       Control de Acceso
-    //     </span>
-    //     }>
-    //   <div>
-    //       <ul>
-    //         <li>DISEÑO DE MODELO DE CONTROL DE ACCESO.</li>
-    //         <li>MONITOREO DE CONTROL DE ACCESO.</li>
-    //         <li>AUDITORIA DE CONTROL DE ACCESO.</li>
-    //         <li>POLÍTlCAS DE CONTROL DE ACCESO.</li>
-    //         <li>ESTÁNDARES DE CONTROL DE ACCESO.</li>
-    //       </ul>
-    //     </div>
-    //   </Tab>
-    // </Tabs>
-    // </div>
     <div>
       <div className="servicios-contenedor" id="Riesgos">
         <img
@@ -195,6 +119,36 @@ export const Servicios = () => {
           <Button variant="success">Conoce más</Button>
         </div>
       </div>
+      <div className="servicios-contenedor" id="PerSeguridad">
+        <img
+          className="servicios-contenedor-img"
+          src={IPersonalSeguridad}
+          alt="Logo"
+        />
+        <div className="servicios-contenedor-texto"  >
+          <h3>Personal de Seguridad</h3>
+          <ul className="servicios-contenedor-texto-caracteristicas">
+            <li>Recurso Especializado en Seguridad Informática de acuerdo a las directrices de las normas ISO 17799 - 27001 - 27002 (SGSI)</li>
+          </ul>
+          <Button variant="success">Conoce más</Button>
+        </div>
+      </div>
+      <div className="servicios-contenedor" id="Auditoria">
+        <img
+          className="servicios-contenedor-img"
+          src={IAuditoria}
+          alt="Logo"
+        />
+        <div className="servicios-contenedor-texto"  >
+          <h3>Auditoria</h3>
+          <ul className="servicios-contenedor-texto-caracteristicas">
+            <li>Auditoria de cumplimiento de Seguridad</li>
+            <li>Auditoria a los sistemas de información</li>
+            <li>Auditoria en la aplicación de controles</li>
+          </ul>
+          <Button variant="success">Conoce más</Button>
+        </div>
+      </div>
       <div className="servicios-contenedor" id="Procesos">
         <img
           className="servicios-contenedor-img"
@@ -216,13 +170,102 @@ export const Servicios = () => {
       <div className="servicios-contenedor" id="SGC">
         <img
           className="servicios-contenedor-img"
-          src={IAuditoria}
+          src={IMonitoreo}
           alt="Logo"
         />
         <div className="servicios-contenedor-texto">
           <h3>SGC.</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
             <li>Diseño, implementación y puesta en marcha del sistema de gestión de calidad, de acuerdo a las directrices y políticas de la Norma ISO 9001 versióm 2000.</li>
+          </ul>
+          <Button variant="success">Conoce más</Button>
+        </div>
+      </div>
+      <div className="servicios-contenedor" id="AuditoriaSistemas">
+        <img
+          className="servicios-contenedor-img"
+          src={IAuditoria}
+          alt="Logo"
+        />
+        <div className="servicios-contenedor-texto">
+          <h3>Auditoria de Sistemas</h3>
+          <ul className="servicios-contenedor-texto-caracteristicas">
+            <li>Recurso humano especializado en auditoria de sistemas y aplicacion de estándares internacionales a los sistemas de información de acuerdo a los modelos COBIT-COSO-MECI.</li>
+          </ul>
+          <Button variant="success">Conoce más</Button>
+        </div>
+      </div>
+      <div className="servicios-contenedor" id="SoftwareWeb">
+        <img
+          className="servicios-contenedor-img"
+          src={IPortalWeb}
+          alt="Logo"
+        />
+        <div className="servicios-contenedor-texto">
+          <h3>Software y Portales Web</h3>
+          <ul className="servicios-contenedor-texto-caracteristicas">
+            <li>Desarrollo y puesta en marcha de aplicaciones especializadas y especificas para su empresa</li>
+            <li>Creación de portales corporativos y sistemas de información</li>
+          </ul>
+          <Button variant="success">Conoce más</Button>
+        </div>
+      </div>
+      <div className="servicios-contenedor" id="Planeacion">
+        <img
+          className="servicios-contenedor-img"
+          src={IPlaneacion}
+          alt="Logo"
+        />
+        <div className="servicios-contenedor-texto">
+          <h3>Planeación</h3>
+          <ul className="servicios-contenedor-texto-caracteristicas">
+            <li>Análisis, planeación y diseño de esquemas de contingencia, respaldo y recuperación a nivel de los datos dando continuidad al negocio</li>
+          </ul>
+          <Button variant="success">Conoce más</Button>
+        </div>
+      </div>
+      <div className="servicios-contenedor" id="Redes">
+        <img
+          className="servicios-contenedor-img"
+          src={IRedes}
+          alt="Logo"
+        />
+        <div className="servicios-contenedor-texto">
+          <h3>Redes</h3>
+          <ul className="servicios-contenedor-texto-caracteristicas">
+            <li>Diseño e implementación de redes alambricas e inalámbricas para la conexión y administración de recursos empresariales</li>
+          </ul>
+          <Button variant="success">Conoce más</Button>
+        </div>
+        </div>
+        <div className="servicios-contenedor" id="Interventoria">
+        <img
+          className="servicios-contenedor-img"
+          src={IInterventoria}
+          alt="Logo"
+        />
+        <div className="servicios-contenedor-texto">
+          <h3>Interventoria</h3>
+          <ul className="servicios-contenedor-texto-caracteristicas">
+            <li>Reingenería en platafomas tecnológicas</li>
+            <li>Data center</li>
+            <li>Esquemas de comunicaciones y seguridad informática</li>
+            <li>Aplicativos en producción</li>
+          </ul>
+          <Button variant="success">Conoce más</Button>
+        </div>
+        </div>
+        <div className="servicios-contenedor" id="AdmiSistemas">
+        <img
+          className="servicios-contenedor-img"
+          src={ISistemas}
+          alt="Logo"
+        />
+        <div className="servicios-contenedor-texto">
+          <h3>Administración de Sistemas</h3>
+          <ul className="servicios-contenedor-texto-caracteristicas">
+            <li>Configuración de servidores: DNS, PROXY, FIREWALL, CORREO, TERMINAL SERVICE, VPN y de aplicación de base de datos</li>
+            <li>Admnistración, diseño y creación de planes de mantenimiento para vases de datos</li>
           </ul>
           <Button variant="success">Conoce más</Button>
         </div>
