@@ -4,7 +4,7 @@ import { PUBLIC_KEY } from "../../../helper/hiddenInfo";
 import whatsapp from "./images/whatsapp.svg";
 import phone from "./images/phone.svg";
 import location from "./images/location.svg";
-import email from "./images/email.svg";
+// import email from "./images/email.svg";
 import "./contacto.css";
 
 export const Contacto = () => {
