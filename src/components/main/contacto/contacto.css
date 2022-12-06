@@ -7,18 +7,51 @@
   padding: 2rem;
 }
 
-@media screen and (max-width: 700px) {
-  #contacto{
-    flex-flow: column;
-    align-items: center;
-  }
+
+#datos-contacto h4 {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+#datos-contacto-lista {
+  list-style-type: none;
+  margin-top: 2rem;
+}
+
+#datos-contacto-lista img {
+  width: 2rem;
+}
+
+#datos-contacto-lista span {
+  margin-left: 1rem;
+}
+
+#datos-contacto-lista li {
+  margin-top: 1rem;
+}
+
+#whatsapp-box {
+  margin: 2rem auto;
+  display: grid;
+  place-items: center;
+  background: rgb(3 193 0);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgb(46, 132, 45);
+  cursor: pointer;
+}
+
+.datos-icon {
+  filter: invert(100%) url(#color-filter);
+  width: 2.6rem;
 }
 
 #divisor-contactos {
   max-height: 100%;
   width: 1px;
   background: rgb(178, 208, 240);
-
+  
 }
 
 #datos-contacto{
@@ -62,3 +95,16 @@ textarea:focus {
   border: rgb(27, 156, 46) solid 3px;
   outline: none;
 }
+  @media screen and (max-width: 700px) {
+    #contacto{
+      flex-flow: column-reverse;
+      align-items: center;
+    }
+
+    #divisor-contactos {
+      height: 1px;
+      width: 100%;
+      background: rgb(178, 208, 240);
+      
+    }
+  }

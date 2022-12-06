@@ -1,6 +1,10 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { PUBLIC_KEY } from "../../../helper/hiddenInfo";
+import whatsapp from "./images/whatsapp.svg";
+import phone from "./images/phone.svg";
+import location from "./images/location.svg";
+import email from "./images/email.svg";
 import "./contacto.css";
 
 export const Contacto = () => {
@@ -31,6 +35,26 @@ export const Contacto = () => {
     <section id="contacto">
       <div id="datos-contacto">
         <h2 id="datos-contacto-titulo">DATOS DE CONTACTO</h2>
+        <ul id="datos-contacto-lista">
+          <li>
+            <img className="datos-icon" src={location} alt="location-icon" />
+            <span>Calle 86 # 51A-61, Itagüí - Antioquia (COL) </span>
+          </li>
+          <li>
+            <img className="datos-icon" src={phone} alt="phone-icon" />
+            <span>3136473798 - 3128880345</span>
+          </li>
+          {/* <li>
+            <img className="datos-icon" src={email} alt="phone-icon" />
+            <span>juanjrodriguezperez@gmail.com</span>
+          </li> */}
+        </ul>
+        <h4>Contáctanos por WhatsApp</h4>
+        <a href="https://wa.me/+573006155805" target="_blank" rel="noreferrer">
+          <div id="whatsapp-box">
+            <img className="datos-icon" src={whatsapp} alt="whatsapp-icon" />
+          </div>
+        </a>
       </div>
       <div id="divisor-contactos" />
       <form
