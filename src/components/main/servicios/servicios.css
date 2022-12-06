@@ -1,6 +1,7 @@
 .contenedor-servicios-general {
   background: white;
   padding: 2rem;
+  z-index: 1;
 }
 
 .contenedor-servicios-tabs {

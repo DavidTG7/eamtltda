@@ -1,10 +1,12 @@
 #contacto {
+  z-index: 1;
   display: flex;
   gap: 2rem;
   color: white;
   /* font-weight: 600; */
   background: rgb(45 165 240);
   padding: 2rem;
+  margin-bottom: 8.5rem;
 }
 
 
