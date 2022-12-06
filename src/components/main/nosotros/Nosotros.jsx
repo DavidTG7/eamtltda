@@ -150,69 +150,84 @@ import "./nosotros.css";
 const servicios = [
   {
     nombre: "Gestión de Riesgos",
+    link: "Riesgos",
     imagen: gestionRiesgos,
   },
   {
     nombre: "Análisis de Seguridad",
+    link: "AnalisSeguridad",
     imagen: analisisSeguridad,
   },
   {
     nombre: "Conctrol de Acceso",
+    link: "Control",
     imagen: controlAcceso,
   },
   {
     nombre: "Políticas de Seguridad",
+    link: "PSeguridad",
     imagen: politicasSeguridad,
   },
   {
     nombre: "Incidentes de Seguridad",
+    link: "ISeguridad",
     imagen: inicidenteSeguridad,
   },
   {
     nombre: "Protección",
+    link: "Proteccion",
     imagen: proteccion,
   },
   {
     nombre: "Personal de Seguridad",
+    link: "PerSeguridad",
     imagen: personalSeguridad,
   },
   {
     nombre: "Auditoria",
+    link: "Auditoria",
     imagen: auditoria,
   },
   {
     nombre: "Procesos y Procedimientos",
+    link: "Procesos",
     imagen: procesosProcedimientos,
   },
   {
     nombre: "SGC",
+    link: "SGC",
     imagen: sgc,
   },
   {
     nombre: "Auditoria de Sistemas",
+    link: "AuditoriaSistemas",
     imagen: auditoriaSistemas,
   },
   {
     nombre: "Software y Portales Web",
+    link: "SoftwareWeb",
     imagen: software,
   },
   {
     nombre: "Planeación",
+    link: "Planeacion",
     imagen: planeacion,
   },
   {
     nombre: "Redes",
+    link: "Redes",
     imagen: redes,
   },
   {
     nombre: "Interventoria",
+    link: "Interventoria",
     imagen: interventoria,
   },
 ];
 
-const todosLosServicios = servicios.map(({ nombre, imagen }) => {
+const todosLosServicios = servicios.map(({ nombre, link , imagen }) => {
   return (
-    <a href={`#${nombre}`} id="servicio-caja" key={nombre}>
+    <a href={`#${link}`} id="servicio-caja" key={nombre}>
       <img className="servicio-icono" src={imagen} alt={nombre} />
       <p>{nombre}</p>
     </a>

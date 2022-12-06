@@ -34,6 +34,7 @@
   padding: 1rem;
   background: rgb(3, 136, 213);
   transition: .2s;
+  text-decoration: none;
 }
 
 .servicio-icono {
