@@ -1,9 +1,10 @@
 .contenedor-servicios-general {
-  background-color: azure;
+  background: white;
+  padding: 2rem;
 }
 
 .contenedor-servicios-tabs {
-  padding: 40px;
+  /* padding: 40px; */
 }
 
 .contenedor-servicios-tabs {
@@ -22,11 +23,11 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: azure;
+  background-color: white;
   padding: 20px;
   gap: 20px;
   flex-wrap: wrap;
-  border-bottom: 1px solid gray;
+  /* border-bottom: 1px solid gray; */
   padding: 20px;
 }
 
@@ -36,7 +37,7 @@
 
 .servicios-contenedor-img {
   object-fit: cover;
-  max-width: 450px;
+  max-width: 400px;
   width: 100%;
   border-radius: 10px;
 }

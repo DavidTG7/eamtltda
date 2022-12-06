@@ -19,7 +19,7 @@ import { LineDivisor } from "./servicios.styled";
 
 export const Servicios = () => {
   return (
-    <div>
+    <div className="contenedor-servicios-general">
       <div className="servicios-contenedor" id="Riesgos">
         <img className="servicios-contenedor-img" src={IRiesgos} alt="Logo" />
         <div className="servicios-contenedor-texto">
@@ -36,6 +36,7 @@ export const Servicios = () => {
           {/* <Button variant="success">Conoce más</Button> */}
         </div>
       </div>
+      <hr />
       <div className="servicios-contenedor invertido" id="AnalisSeguridad">
         <div className="servicios-contenedor-texto">
           <h3>Análisis de Seguridad</h3>
@@ -45,7 +46,6 @@ export const Servicios = () => {
             <li>Diseño de Soluciones de seguridad</li>
           </ul>
           <LineDivisor color="rgba(222, 25, 0, 0.8)" />
-          <LineDivisor color="rgba(222, 25, 0, 0.8)" />
           {/* <Button variant="success">Conoce más</Button> */}
         </div>
         <img
@@ -54,6 +54,7 @@ export const Servicios = () => {
           alt="Logo"
         />
       </div>
+      <hr />
       <div className="servicios-contenedor" id="Control">
         <img
           className="servicios-contenedor-img"
@@ -73,6 +74,7 @@ export const Servicios = () => {
           {/* <Button variant="success">Conoce más</Button> */}
         </div>
       </div>
+      <hr />
       <div className="servicios-contenedor invertido">
         <div className="servicios-contenedor-texto" id="PSeguridad">
           <h3>Políticas de Seguridad</h3>
@@ -86,6 +88,7 @@ export const Servicios = () => {
         </div>
         <img className="servicios-contenedor-img" src={IPoliticas} alt="Logo" />
       </div>
+      <hr />
       <div className="servicios-contenedor" id="ISeguridad">
         <img className="servicios-contenedor-img" src={IMonitoreo} alt="Logo" />
         <div className="servicios-contenedor-texto">
@@ -97,10 +100,10 @@ export const Servicios = () => {
             <li>Administración de incidentes de seguridad</li>
           </ul>
           <LineDivisor color="rgba(226, 16, 18, 0.8)" />
-          <LineDivisor color="rgba(226, 16, 18, 0.8)" />
           {/* <Button variant="success">Conoce más</Button> */}
         </div>
       </div>
+      <hr />
       <div className="servicios-contenedor invertido " id="Proteccion">
         <div className="servicios-contenedor-texto">
           <h3>Protección</h3>
@@ -117,6 +120,7 @@ export const Servicios = () => {
           alt="Logo"
         />
       </div>
+      <hr />
       <div className="servicios-contenedor" id="PerSeguridad">
         <img
           className="servicios-contenedor-img"
@@ -132,10 +136,10 @@ export const Servicios = () => {
             </li>
           </ul>
           <LineDivisor color="rgba(57, 210, 19, 0.8)" />
-          <LineDivisor color="rgba(57, 210, 19, 0.8)" />
           {/* <Button variant="success">Conoce más</Button> */}
         </div>
       </div>
+      <hr />
       <div className="servicios-contenedor invertido" id="Auditoria">
         <div className="servicios-contenedor-texto">
           <h3>Auditoria</h3>
@@ -149,6 +153,7 @@ export const Servicios = () => {
         </div>
         <img className="servicios-contenedor-img" src={IAuditoria} alt="Logo" />
       </div>
+      <hr />
       <div className="servicios-contenedor" id="Procesos">
         <img className="servicios-contenedor-img" src={IProcesos} alt="Logo" />
         <div className="servicios-contenedor-texto">
@@ -166,6 +171,7 @@ export const Servicios = () => {
           {/* <Button variant="success">Conoce más</Button> */}
         </div>
       </div>
+      <hr />
       <div className="servicios-contenedor invertido" id="SGC">
         <div className="servicios-contenedor-texto">
           <h3>SGC.</h3>
@@ -181,6 +187,7 @@ export const Servicios = () => {
         </div>
         <img className="servicios-contenedor-img" src={IMonitoreo} alt="Logo" />
       </div>
+      <hr />
       <div className="servicios-contenedor" id="AuditoriaSistemas">
         <img className="servicios-contenedor-img" src={IAuditoria} alt="Logo" />
         <div className="servicios-contenedor-texto">
@@ -196,6 +203,7 @@ export const Servicios = () => {
           {/* <Button variant="success">Conoce más</Button> */}
         </div>
       </div>
+      <hr />
       <div className="servicios-contenedor invertido" id="SoftwareWeb">
         <div className="servicios-contenedor-texto">
           <h3>Software y Portales Web</h3>
@@ -211,6 +219,7 @@ export const Servicios = () => {
         </div>
         <img className="servicios-contenedor-img" src={IPortalWeb} alt="Logo" />
       </div>
+      <hr />
       <div className="servicios-contenedor" id="Planeacion">
         <img
           className="servicios-contenedor-img"
@@ -230,6 +239,7 @@ export const Servicios = () => {
           {/* <Button variant="success">Conoce más</Button> */}
         </div>
       </div>
+      <hr />
       <div className="servicios-contenedor invertido" id="Redes">
         <div className="servicios-contenedor-texto">
           <h3>Redes</h3>
@@ -244,6 +254,7 @@ export const Servicios = () => {
         </div>
         <img className="servicios-contenedor-img" src={IRedes} alt="Logo" />
       </div>
+      <hr />
       <div className="servicios-contenedor" id="Interventoria">
         <img
           className="servicios-contenedor-img"
@@ -262,6 +273,7 @@ export const Servicios = () => {
           {/* <Button variant="success">Conoce más</Button>  */}
         </div>
       </div>
+      <hr />
       <div className="servicios-contenedor invertido" id="AdmiSistemas">
         <div className="servicios-contenedor-texto">
           <h3>Administración de Sistemas</h3>
