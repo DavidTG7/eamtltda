@@ -13,8 +13,8 @@ export const Main = () => {
       <Intro />
       <Empresa />
       <Nosotros />
-      <Contacto />
       <Servicios />
+      <Contacto />
       <Ubicacion />
     </main>
   );

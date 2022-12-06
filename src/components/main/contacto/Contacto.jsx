@@ -50,10 +50,13 @@ export const Contacto = () => {
           </li> */}
         </ul>
         <h4>Contáctanos por WhatsApp</h4>
-        <a href="https://wa.me/+573006155805" target="_blank" rel="noreferrer">
-          <div id="whatsapp-box">
-            <img className="datos-icon" src={whatsapp} alt="whatsapp-icon" />
-          </div>
+        <a
+          id="whatsapp-box"
+          href="https://wa.me/+573006155805"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className="datos-icon" src={whatsapp} alt="whatsapp-icon" />
         </a>
       </div>
       <div id="divisor-contactos" />

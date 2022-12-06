@@ -1,7 +1,6 @@
 import "./ubicacion.css";
 // import { WebView } from 'react-native';
 
-
 export const Ubicacion = () => {
   return (
     <div></div>
@@ -16,7 +15,7 @@ export const Ubicacion = () => {
     //     /> */}
     //   </div>
     // </div>
-    )
+  );
 };
 
 // Nominacion de clases: BEM Block Element Modifier
