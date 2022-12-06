@@ -53,7 +53,7 @@ export const Empresa = () => {
         </ItemTextBox>
       </EmpresaSingleCard>
       <hr />
-      <EmpresaSingleCard>
+      <EmpresaSingleCard id="politicas-calidad">
         <ItemImage src={calidad} />
         <ItemTextBox>
           <ItemSubTitle>Políticas de Calidad</ItemSubTitle>
@@ -85,11 +85,11 @@ export const Empresa = () => {
               </li>
             </ol>
           </ItemParagraph>
-          <LowDivisor color="green" />
+          <LowDivisor color="rgba(240, 31, 255, 1)" />
         </ItemTextBox>
       </EmpresaSingleCard>
       <hr />
-      <EmpresaSingleCard column>
+      <EmpresaSingleCard column id="objetivos-calidad">
         <ItemImage src={objetivo} />
         <ItemTextBox>
           <ItemSubTitle>Objetivos de Calidad</ItemSubTitle>
@@ -141,7 +141,7 @@ export const Empresa = () => {
               </li>
             </ol>
           </ItemParagraph>
-          <LowDivisor color="gold" />
+          <LowDivisor color="rgba(29, 250, 0, 1)" />
         </ItemTextBox>
       </EmpresaSingleCard>
     </EmpresaMain>
