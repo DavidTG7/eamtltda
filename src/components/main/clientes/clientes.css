@@ -1,0 +1,62 @@
+#Clientes {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  background: white;
+  padding: 2rem;
+  z-index: 1;
+}
+
+#Clientes h3 {
+  font-size: 3rem;
+}
+
+#servicios-grid {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+  background: white;
+  padding: 2rem;
+}
+
+
+#cliente-caja {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  width: 10rem;
+  border-radius: 10px;
+  padding: 1rem;
+  /* background: rgb(3, 136, 213); */
+  transition: .2s;
+  text-decoration: none;
+}
+
+.cliente-icono {
+  width: 7rem;
+  /* filter: invert(100%) url(#color-filter); */
+}
+
+#cliente-caja:hover{
+  transform: scale(1.05);
+  /* background: rgb(18, 163, 246); */
+}
+
+#cliente-caja p {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  
+}
+
+.sectorPublico{
+  display: none;
+}
+.control_con_active{
+  /* display: none; */
+}
