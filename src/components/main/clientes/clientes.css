@@ -54,9 +54,10 @@
   
 }
 
-.sectorPublico{
+/* .sectorPublico{
   display: none;
-}
-.control_con_active{
-  /* display: none; */
+} */
+
+.con_desactive{
+  display: none !important;
 }

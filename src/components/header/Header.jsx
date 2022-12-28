@@ -36,7 +36,7 @@ export const Header = () => {
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="#nosotros">Servicios</Nav.Link>
-              <Nav.Link href="#link">Nuestros Clientes</Nav.Link>
+              <Nav.Link href="#Clientes">Nuestros Clientes</Nav.Link>
               <Nav.Link href="#contacto">Contacto</Nav.Link>
             </Nav>
           </Navbar.Collapse>

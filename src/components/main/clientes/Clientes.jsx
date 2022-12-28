@@ -38,9 +38,13 @@ import mintic from "./images/publico/mintic.jpg";
 import anh from "./images/publico/anh.png";
 import UBPD from "./images/publico/UBPD.png";
 
+// Clientes Sector Cooperativo Solidario
+import MicroEmpresas from "./images/publico/microempresas.jpg"; 
+// import Comuldesa from "./images/publico/commuldesa.jpg"; 
+// import Comuldesa from "./images/publico/commuldesa.jpg"; 
 
-
-
+import React, { useEffect } from 'react';
+import Button from 'react-bootstrap/Button';
 import "./clientes.css";
 
 const clientes = [
@@ -159,28 +163,77 @@ const clientes = [
   },
 ];
 
+const Clientes_sectorCorporativo = [ 
+  {
+    nombre: "MicroEmpresas",
+    link: "Riesgos",
+    imagen: MicroEmpresas,
+  },
+];
+
 const todosLosClientes_sectorPublico = clientes.map(({ nombre, link , imagen }) => {
   return (
-    <div id="cliente-caja" className="sectorPublico" key={nombre}>
+    <div id="cliente-caja" className="sectorPublico convenio__items Publico_item" key={nombre}>
       <img className="cliente-icono" src={imagen} alt={nombre} />
       {/* <p>{nombre}</p> */}
     </div>
   );
 });
 
+const todosLosClientes_sectorCorporativo = Clientes_sectorCorporativo.map(({ nombre, link , imagen }) => {
+  return (
+    <div id="cliente-caja" className="sectorPublico convenio__items Solidario_item" key={nombre}>
+      <img className="cliente-icono" src={imagen} alt={nombre} />
+      {/* <p>{nombre}</p> */}
+    </div>
+  );
+});
+
+
+
 export const Clientes = () => {
+  useEffect(() => {
+    const clienteBotonElements = document.querySelectorAll('.cliente__boton');
+    const conveniosControlsElements = document.querySelectorAll('.convenios_controls');
+    const convenioItemsElements = document.querySelectorAll('.convenio__items');
+
+    clienteBotonElements.forEach(item => {
+      item.addEventListener('click', () => {
+        // console.log(clienteBotonElements)
+        conveniosControlsElements.forEach(a => a.classList.remove('control_con_active'));
+        item.classList.add('control_con_active');
+        convenioItemsElements.forEach(convenio => convenio.classList.add('con_desactive'));
+        console.log(`${item.id}_item`);
+
+        if (item.id === 'todos') {
+          convenioItemsElements.forEach(convenio => convenio.classList.remove('con_desactive'));
+        } else {
+          const cla = `${item.id}_item`;
+          console.log(cla)
+          convenioItemsElements.forEach(convenio => {
+            console.log(`Convenios: ${convenio}`);
+            const clasesConvenio = convenio.classList.value;
+            console.log(`Convenios: ${clasesConvenio}`);
+            if (clasesConvenio.match(cla)) {
+              convenio.classList.remove('con_desactive');
+            }
+          });
+        }
+      });
+    });
+  }, []);
   return (
     <section id="Clientes">
       <h3>Clientes</h3>
       
-      <div id="servicios-grid">{todosLosClientes_sectorPublico}</div>
-
       <div class="servicios__control">
-        <div id="todos" class="cliente__boton control_con_active"><i class="fas fa-light fa-border-all"></i>Sector Público</div>
-        <div id="beneficio" class="cliente__boton"><i class="fas fa-thin fa-circle-check"></i>Sector Coorperativo Solidario</div>
-        <div id="exequial" class="cliente__boton"><i class="fas fa-solid fa-cross"></i>Sector Financiero</div>
-        <div id="financiero" class="cliente__boton"><i class="fas fa-thin fa-money-bill"></i>Fondo de Empleados</div>
+        <Button id="Publico" className="cliente__boton control_con_active" variant="primary">Sector Público</Button>
+        <Button id="Solidario" className="cliente__boton convenios_controls" variant="primary">Sector Coorperativo Solidario</Button>
+        <Button id="Financiero" className="cliente__boton convenios_controls" variant="primary">Sector Financiero</Button>
+        <Button id="Fondos" className="cliente__boton convenios_controls" variant="primary">Fondo de Empleados</Button>
       </div>
+      <div id="servicios-grid">{todosLosClientes_sectorPublico}</div>
+      <div id="servicios-grid">{todosLosClientes_sectorCorporativo}</div>
 
     </section>
   );
