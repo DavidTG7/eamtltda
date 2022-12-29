@@ -16,6 +16,7 @@
 .intro-carrusel-contenido-imagen {
   width: 300px;
   object-fit: contain;
+  margin-bottom: 2rem;
 }
 
 .carousel-caption {
@@ -73,4 +74,12 @@
     display: none;
   }
 
+}
+
+.carousel-dark .carousel-indicators button {
+  height: 12px;
+  width: 40px;
+  border-radius: 10px;
+  border: transparent;
+  background: rgb(26 71 196) !important; 
 }

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import upArrow from "../imagenes/upArrow.svg";
+import "./scrollUpButton.css";
 
 export const ScrollUpButton = () => {
   const [visible, setVisible] = useState(false);
@@ -42,7 +43,7 @@ export const ScrollUpButton = () => {
 
 const styles = {
   position: "fixed",
-  zIndex: "1",
+  zIndex: "1000",
   display: "grid",
   placeItems: "center",
   width: "50px",
