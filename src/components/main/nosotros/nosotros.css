@@ -23,7 +23,7 @@
 }
 
 
-#servicio-caja {
+.servicio-caja {
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -42,12 +42,12 @@
   filter: invert(100%) url(#color-filter);
 }
 
-#servicio-caja:hover{
+.servicio-caja:hover{
   transform: scale(1.05);
   background: rgb(18, 163, 246);
 }
 
-#servicio-caja p {
+.servicio-caja p {
   text-align: center;
   text-decoration: none;
   color: white;
