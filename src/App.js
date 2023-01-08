@@ -8,6 +8,7 @@ export const App = () => {
   return (
     <>
       <div id="bigBox">
+        <div id="headerBackground" />
         <div id="bigBox-app">
           <ScrollUpButton />
           <Header />

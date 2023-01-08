@@ -2,10 +2,10 @@
   position: absolute;
   width: 100%;
   background: rgb(237, 237, 237);
-  background-image: url('./imagenes/mainBG2.jpg');
+  background-image: linear-gradient(rgb(9, 46, 95) 1%,rgb(237, 237, 237) 100%);
   
   background-repeat: no-repeat;
-  background-size: 100% 50rem;
+  background-size: 100% 100rem;
   /* filter: blur(8px); */
 }
 
