@@ -133,21 +133,24 @@ textarea:focus {
     font-size: 3rem;
     font-weight: 700;
     text-transform: uppercase;
+    margin: -1rem 1rem;
   }
 
   .successMessage-box button {
-    width: 8rem;
-    padding: .5rem;
-    font-size: 2rem;
+    /* width: 8rem;
+    padding: .5rem; */
+    aspect-ratio: 1;
+    font-size: 5rem;
     font-weight: 700;
     border: none;
     outline: none;
-    border-radius: 10px;
-    color: #fff;
-    background: #1e2aac;
+    border-radius: 50%;
+    border: solid 10px #252525;
+    color: #252525;
+    background: transparent;
   }
 
   .successMessage-box button:hover {
-    background: rgb(240, 237, 237);
-    color: #252525;
+    border: solid 10px rgb(206, 206, 206);
+    color: rgb(206, 206, 206);
   }

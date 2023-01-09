@@ -42,7 +42,7 @@ export const Contacto = () => {
   const successMessage = 
     <div className="successMessage-box">
       <p>Mensaje enviado con éxito</p>
-      <button onClick={handleSuccess}>OK</button>
+      <button onClick={handleSuccess}>X</button>
     </div>
 
   return (
