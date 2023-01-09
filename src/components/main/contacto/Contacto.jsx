@@ -1,13 +1,15 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { PUBLIC_KEY } from "../../../helper/hiddenInfo";
 import whatsapp from "./images/whatsapp.svg";
 import phone from "./images/phone.svg";
 import location from "./images/location.svg";
-// import email from "./images/email.svg";
+import email from "./images/email.svg";
 import "./contacto.css";
 
 export const Contacto = () => {
+  const [isSuccess, setIsSuccess] = useState(false)
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -19,7 +21,8 @@ export const Contacto = () => {
         (result) => {
           console.log(result);
           if (result.status === 200) {
-            alert("Mensaje enviado con exito!");
+            // alert("Mensaje enviado con exito!");
+            setIsSuccess(true)
           }
         },
         (error) => {
@@ -31,8 +34,20 @@ export const Contacto = () => {
       );
   };
 
+  const handleSuccess = () => {
+    document.getElementById("formulario-contacto").reset()
+    setIsSuccess(false)
+  }
+
+  const successMessage = 
+    <div className="successMessage-box">
+      <p>Mensaje enviado con éxito</p>
+      <button onClick={handleSuccess}>OK</button>
+    </div>
+
   return (
     <section id="contacto">
+      {isSuccess ? successMessage : null}
       <div id="datos-contacto">
         <h2 id="datos-contacto-titulo">DATOS DE CONTACTO</h2>
         <ul id="datos-contacto-lista">
@@ -44,10 +59,10 @@ export const Contacto = () => {
             <img className="datos-icon" src={phone} alt="phone-icon" />
             <span>3136473798 - 3128880345</span>
           </li>
-          {/* <li>
+          <li>
             <img className="datos-icon" src={email} alt="phone-icon" />
             <span>juanjrodriguezperez@gmail.com</span>
-          </li> */}
+          </li>
         </ul>
         <h4>Contáctanos por WhatsApp</h4>
         <a

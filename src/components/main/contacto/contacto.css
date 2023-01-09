@@ -1,4 +1,5 @@
 #contacto {
+  position: relative;
   z-index: 1;
   display: flex;
   gap: 2rem;
@@ -21,7 +22,7 @@
 }
 
 #datos-contacto-lista img {
-  width: 2rem;
+  width: 1.5rem;
 }
 
 #datos-contacto-lista span {
@@ -109,4 +110,44 @@ textarea:focus {
       background: rgb(178, 208, 240);
       
     }
+  }
+
+  .successMessage-box {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(8px);
+    background: hsla(1, 0%, 25%, 0.2);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .successMessage-box p {
+    color: #252525;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .successMessage-box button {
+    width: 8rem;
+    padding: .5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+    background: #1e2aac;
+  }
+
+  .successMessage-box button:hover {
+    background: rgb(240, 237, 237);
+    color: #252525;
   }
