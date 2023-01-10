@@ -92,14 +92,16 @@ export const Contacto = () => {
         <label>Email:</label>
         <input type="email" name="from_email" required />
         <label>Motivo de contacto:</label>
-        <select name="servicio">
-          <option selected disabled>Motivo de contacto</option>
-
+        <select name="servicio" required>
+          <option selected disabled>
+            Motivo de contacto
+          </option>
           <option>Servicio 1</option>
-
           <option>Servicio 2</option>
-
           <option>Servicio 3</option>
+          <option>Servicio 4</option>
+          <option>Servicio 5</option>
+          <option>Otro</option>
         </select>
         <label>Mensaje:</label>
         <textarea name="message" rows="5" required />
