@@ -4,12 +4,10 @@
   display: flex;
   gap: 2rem;
   color: white;
-  /* font-weight: 600; */
   background: rgb(45 165 240);
   padding: 2rem;
   margin-bottom: 8.5rem;
 }
-
 
 #datos-contacto h4 {
   text-align: center;
@@ -54,42 +52,33 @@
   max-height: 100%;
   width: 1px;
   background: rgb(178, 208, 240);
-  
 }
 
 #datos-contacto{
   width: 100%;
 }
 
-#datos-contacto-titulo {
+#datos-contacto-titulo, #titulo-contacto {
   text-align: center;
 }
-
-#titulo-contacto {
-  text-align: center;
-}
-
 
 #formulario-contacto {
   width: 100%;
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
 }
-
 
 input:focus:required{
   border: 5px solid rgb(246, 84, 84);
 }
+
 input:required:focus {
   border: rgb(27, 156, 46) solid 3px;
   outline: none;
-
 }
 
-input {
-  border-radius: 5px;
-  border: 1px solid grey;
-}
-
-textarea {
+input, textarea {
   border-radius: 5px;
   border: 1px solid grey;
 }
@@ -108,7 +97,6 @@ textarea:focus {
       height: 1px;
       width: 100%;
       background: rgb(178, 208, 240);
-      
     }
   }
 
@@ -120,37 +108,10 @@ textarea:focus {
     text-align: center;
     top: 0;
     left: 0;
-    backdrop-filter: blur(8px);
-    background: hsla(1, 0%, 25%, 0.2);
+    /* backdrop-filter: blur(4px); */
+    /* background: hsla(1, 0%, 25%, 0.7); */
     display: flex;
     flex-flow: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-  }
-
-  .successMessage-box p {
-    color: #252525;
-    font-size: 3rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: -1rem 1rem;
-  }
-
-  .successMessage-box button {
-    /* width: 8rem;
-    padding: .5rem; */
-    aspect-ratio: 1;
-    font-size: 5rem;
-    font-weight: 700;
-    border: none;
-    outline: none;
-    border-radius: 50%;
-    border: solid 10px #252525;
-    color: #252525;
-    background: transparent;
-  }
-
-  .successMessage-box button:hover {
-    border: solid 10px rgb(206, 206, 206);
-    color: rgb(206, 206, 206);
   }

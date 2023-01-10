@@ -21,10 +21,6 @@ export const Contacto = () => {
     console.log('after setTimeout');    
     clearTimeout(myTimeout)
   }, [isSuccess])
-
-  const myp = process.env.PUBLIC_KEY
-
-  console.log(myp)
   
   const sendEmail = (e) => {
     e.preventDefault();
@@ -35,12 +31,10 @@ export const Contacto = () => {
         (result) => {
           console.log(result);
           if (result.status === 200) {
-            // alert("Mensaje enviado con exito!");
             setIsSuccess(true)
-            console.log('befpre setTimeout');
             myTimeout = setTimeout(() => {
               console.log('setTimeout');
-              setIsSuccess(false)}, 3000);
+              setIsSuccess(false)}, 4000);
               document.getElementById("formulario-contacto").reset()
           }
         },
@@ -53,21 +47,12 @@ export const Contacto = () => {
       )
   };
 
-  const handleSuccess = () => {
-    
-    setIsSuccess(false)
-  }
-
   const successMessage = 
     <div className="successMessage-box">
-      {/* <p>Mensaje enviado con éxito</p>
-      <button onClick={handleSuccess}>X</button> */}
       <Lottie
-          // style={{cursor: "pointer"}}
-          // autoplay={false}
-          // lottieRef={lottieRef}
-          animationData={successful}
-        />
+        loop={false}
+        animationData={successful}
+      />
     </div>
 
   return (
@@ -104,7 +89,6 @@ export const Contacto = () => {
         id="formulario-contacto"
         ref={form}
         onSubmit={sendEmail}
-        style={styles}
       >
         <h2 id="titulo-contacto">FORMULARIO DE CONTACTO</h2>
         <label>Nombre completo:</label>
@@ -113,15 +97,8 @@ export const Contacto = () => {
         <input type="email" name="from_email" required />
         <label>Mensaje:</label>
         <textarea name="message" rows="5" required />
-        <input type="submit" value="ENVIAR" />
+        <input type="submit" value={isSuccess ? "ENVIANDO..." : "ENVIAR"} />
       </form>
     </section>
   );
-};
-
-const styles = {
-  // background: "lightgreen",
-  display: "flex",
-  flexFlow: "column",
-  gap: "10px",
 };
