@@ -2,8 +2,8 @@ import React, { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { PUBLIC_KEY } from "../../../helper/hiddenInfo";
 
-import Lottie from "lottie-react"
-import successful from "./successful.json"
+import Lottie from "lottie-react";
+import successful from "./successful.json";
 
 import whatsapp from "./images/whatsapp.svg";
 import phone from "./images/phone.svg";
@@ -12,17 +12,17 @@ import email from "./images/email.svg";
 import "./contacto.css";
 
 export const Contacto = () => {
-  const [isSuccess, setIsSuccess] = useState(false)
+  const [isSuccess, setIsSuccess] = useState(false);
 
   const form = useRef();
   let myTimeout;
 
   useEffect(() => {
-    console.log('after setTimeout');    
-    clearTimeout(myTimeout)
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isSuccess])
-  
+    console.log("after setTimeout");
+    clearTimeout(myTimeout);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isSuccess]);
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -32,11 +32,12 @@ export const Contacto = () => {
         (result) => {
           console.log(result);
           if (result.status === 200) {
-            setIsSuccess(true)
+            setIsSuccess(true);
             myTimeout = setTimeout(() => {
-              console.log('setTimeout');
-              setIsSuccess(false)}, 4000);
-              document.getElementById("formulario-contacto").reset()
+              console.log("setTimeout");
+              setIsSuccess(false);
+            }, 4000);
+            document.getElementById("formulario-contacto").reset();
           }
         },
         (error) => {
@@ -45,16 +46,14 @@ export const Contacto = () => {
             "Hubo un problema en el envío del mensaje, por favor vuelve a intentarlo!"
           );
         }
-      )
+      );
   };
 
-  const successMessage = 
+  const successMessage = (
     <div className="successMessage-box">
-      <Lottie
-        loop={false}
-        animationData={successful}
-      />
+      <Lottie loop={false} animationData={successful} />
     </div>
+  );
 
   return (
     <section id="contacto">
@@ -86,11 +85,7 @@ export const Contacto = () => {
         </a>
       </div>
       <div id="divisor-contactos" />
-      <form
-        id="formulario-contacto"
-        ref={form}
-        onSubmit={sendEmail}
-      >
+      <form id="formulario-contacto" ref={form} onSubmit={sendEmail}>
         <h2 id="titulo-contacto">FORMULARIO DE CONTACTO</h2>
         <label>Nombre completo:</label>
         <input type="text" name="from_name" required />
