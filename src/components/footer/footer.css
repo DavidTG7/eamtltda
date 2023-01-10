@@ -15,4 +15,6 @@
   width: 30rem;
   color: white;
   text-align: center;
+  border-top: solid rgb(203, 201, 201) 1px;
+  padding-top: 1rem;
 }
