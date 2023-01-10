@@ -1,6 +1,10 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { PUBLIC_KEY } from "../../../helper/hiddenInfo";
+
+import Lottie from "lottie-react"
+import successful from "./successful.json"
+
 import whatsapp from "./images/whatsapp.svg";
 import phone from "./images/phone.svg";
 import location from "./images/location.svg";
@@ -11,7 +15,17 @@ export const Contacto = () => {
   const [isSuccess, setIsSuccess] = useState(false)
 
   const form = useRef();
+  let myTimeout;
 
+  useEffect(() => {
+    console.log('after setTimeout');    
+    clearTimeout(myTimeout)
+  }, [isSuccess])
+
+  const myp = process.env.PUBLIC_KEY
+
+  console.log(myp)
+  
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -23,26 +37,37 @@ export const Contacto = () => {
           if (result.status === 200) {
             // alert("Mensaje enviado con exito!");
             setIsSuccess(true)
+            console.log('befpre setTimeout');
+            myTimeout = setTimeout(() => {
+              console.log('setTimeout');
+              setIsSuccess(false)}, 3000);
+              document.getElementById("formulario-contacto").reset()
           }
         },
         (error) => {
-          console.log(error.text);
+          console.error(error.text);
           alert(
             "Hubo un problema en el envío del mensaje, por favor vuelve a intentarlo!"
           );
         }
-      );
+      )
   };
 
   const handleSuccess = () => {
-    document.getElementById("formulario-contacto").reset()
+    
     setIsSuccess(false)
   }
 
   const successMessage = 
     <div className="successMessage-box">
-      <p>Mensaje enviado con éxito</p>
-      <button onClick={handleSuccess}>X</button>
+      {/* <p>Mensaje enviado con éxito</p>
+      <button onClick={handleSuccess}>X</button> */}
+      <Lottie
+          // style={{cursor: "pointer"}}
+          // autoplay={false}
+          // lottieRef={lottieRef}
+          animationData={successful}
+        />
     </div>
 
   return (
