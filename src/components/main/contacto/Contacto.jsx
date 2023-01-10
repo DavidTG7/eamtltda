@@ -91,6 +91,16 @@ export const Contacto = () => {
         <input type="text" name="from_name" required />
         <label>Email:</label>
         <input type="email" name="from_email" required />
+        <label>Motivo de contacto:</label>
+        <select name="servicio">
+          <option selected disabled>Motivo de contacto</option>
+
+          <option>Servicio 1</option>
+
+          <option>Servicio 2</option>
+
+          <option>Servicio 3</option>
+        </select>
         <label>Mensaje:</label>
         <textarea name="message" rows="5" required />
         <input type="submit" value={isSuccess ? "ENVIANDO..." : "ENVIAR"} />
