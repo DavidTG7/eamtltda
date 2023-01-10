@@ -20,6 +20,7 @@ export const Contacto = () => {
   useEffect(() => {
     console.log('after setTimeout');    
     clearTimeout(myTimeout)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isSuccess])
   
   const sendEmail = (e) => {
