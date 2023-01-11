@@ -93,9 +93,6 @@ export const Contacto = () => {
         <input type="email" name="from_email" required />
         <label>Motivo de contacto:</label>
         <select name="servicio" required>
-          <option selected disabled>
-            Motivo de contacto
-          </option>
           <option>Servicio 1</option>
           <option>Servicio 2</option>
           <option>Servicio 3</option>
