@@ -15,7 +15,7 @@ import objetivo from "./images/objetivo.jpg";
 
 export const Empresa = () => {
   return (
-    <EmpresaMain>
+    <EmpresaMain id="empresa">
       <EmpresaTitle>EMPRESA</EmpresaTitle>
       <hr />
       <EmpresaSingleCard id="mision">

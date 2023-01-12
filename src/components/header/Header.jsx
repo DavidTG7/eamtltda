@@ -42,6 +42,15 @@ export const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      <div className="eamt__navbar">
+        <h1>EAMLTDA</h1>
+        <ul>
+          <li><a href="#empresa">Empresa</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="">Clientes</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
     </header>
   );
 };

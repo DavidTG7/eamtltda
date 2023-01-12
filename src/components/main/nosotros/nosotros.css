@@ -1,15 +1,18 @@
 
-#nosotros {
+#servicios{
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  gap: 1.2rem;
   background: white;
   padding: 2rem;
 }
 
-#nosotros h3 {
+#servicios hr {
+  width: 100%;
+}
+
+#servicios h3 {
   font-size: 3rem;
 }
 
