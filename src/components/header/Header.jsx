@@ -1,55 +1,64 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { useState } from "react";
+import { RiMenuLine, RiCloseLine } from "react-icons/ri";
 import "./header.css";
 
+const Links = ({ setToggleMenu }) => {
+  return (
+    <ul>
+      <li>
+        <a onClick={() => setToggleMenu(false)} href="#empresa">
+          Empresa
+        </a>
+      </li>
+      <li>
+        <a onClick={() => setToggleMenu(false)} href="#servicios">
+          Servicios
+        </a>
+      </li>
+      <li>
+        <a onClick={() => setToggleMenu(false)} href="#clientes">
+          Clientes
+        </a>
+      </li>
+      <li>
+        <a onClick={() => setToggleMenu(false)} href="#contacto">
+          Contacto
+        </a>
+      </li>
+    </ul>
+  );
+};
+
 export const Header = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
+
   return (
     <header>
-      <Navbar
-        id="header"
-        collapseOnSelect="true"
-        bg="dark"
-        variant="dark"
-        expand="lg"
-      >
-        <Container>
-          <Navbar.Brand href="#home" style={{ fontWeight: "bold" }}>
-            EAMLTADA
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <NavDropdown title="Empresa" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#mision">Misión</NavDropdown.Item>
-                <NavDropdown.Item href="#vision">Visión</NavDropdown.Item>
-                <NavDropdown.Item href="#politicas-calidad">
-                  Políticas de Calidad
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#objetivos-calidad">
-                  Objetivos de Calidad
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
-              <Nav.Link href="#nosotros">Servicios</Nav.Link>
-              <Nav.Link href="#Clientes">Nuestros Clientes</Nav.Link>
-              <Nav.Link href="#contacto">Contacto</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
       <div className="eamt__navbar">
-        <h1>EAMLTDA</h1>
-        <ul>
-          <li><a href="#empresa">Empresa</a></li>
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="">Clientes</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-        </ul>
+        <h1>EAMTLTDA</h1>
+        <div className="eamt__navbar-links">
+          <Links />
+        </div>
+        <div className="eamt__navbar-menu">
+          {toggleMenu ? (
+            <RiCloseLine
+              color="fff"
+              size="27"
+              onClick={() => setToggleMenu(false)}
+            />
+          ) : (
+            <RiMenuLine
+              color="fff"
+              size="27"
+              onClick={() => setToggleMenu(true)}
+            />
+          )}
+          {toggleMenu && (
+            <div className="eamt__navbar-menu-links">
+              <Links setToggleMenu={setToggleMenu} />
+            </div>
+          )}
+        </div>
       </div>
     </header>
   );
