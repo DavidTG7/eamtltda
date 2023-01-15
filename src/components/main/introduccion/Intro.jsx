@@ -1,8 +1,8 @@
 import "./intro.css";
 import Carousel from "react-bootstrap/Carousel";
 import fondo1 from "../../../imagenes/Fondo_login2.png";
-import fondo2 from "../../../imagenes/principios2.jpg";
-import fondo3 from "../../../imagenes/valores.jpg";
+import fondo2 from "../../../imagenes/clientes_felices.png";
+import fondo3 from "../../../imagenes/empresario.png";
 import logo from "../../../imagenes/Logo_Editado.png";
 
 export const Intro = () => {
@@ -34,7 +34,7 @@ export const Intro = () => {
                 src={logo}
                 alt="Logo"
               />
-              <p>
+              <p className="intro-carrusel-contenido-texto">
                 {/* <h3>EAMT LTDA</h3> */}
                 Es una empresa colombiana con 25 años de experiencia en
                 Consultoría y Asesoría que apoya las organizaciones en la
@@ -61,7 +61,7 @@ export const Intro = () => {
                 src={logo}
                 alt="Logo"
               />
-              <p>
+              <p className="intro-carrusel-contenido-texto">
                 Ponemos al servicio de nuestros aliados estratégicos la
                 experiencia adquirida en la participación de proyectos en el
                 sector público y privado, bajo la metodología de Auditoria,

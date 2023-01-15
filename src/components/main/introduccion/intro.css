@@ -43,6 +43,7 @@
   min-width: 300px;
   width: 50%;
   height: 500px;
+  padding: 0px 20px;
 }
 
 .intro-contenedor-imagen {
@@ -64,7 +65,6 @@
 .intro-carousel .carousel-control-next {
   /* position: absolute; */
   max-width: 50px;
-
 }
 
 @media (max-width: 850px) {
@@ -73,7 +73,6 @@
   .intro-carousel .carousel-control-next {
     display: none;
   }
-
 }
 
 .carousel-dark .carousel-indicators button {
@@ -81,5 +80,15 @@
   width: 40px;
   border-radius: 10px;
   border: transparent;
-  background: rgb(26 71 196) !important; 
+  background: rgb(26 71 196) !important;
+}
+
+.intro-carrusel-contenido-texto {
+  text-align: justify;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: brightness(0) saturate(100%) invert(61%) sepia(69%) saturate(1099%)
+    hue-rotate(143deg) brightness(103%) contrast(103%) !important;
 }
