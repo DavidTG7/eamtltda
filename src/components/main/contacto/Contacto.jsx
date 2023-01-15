@@ -51,13 +51,14 @@ export const Contacto = () => {
 
   const successMessage = (
     <div className="successMessage-box">
-      <Lottie loop={false} animationData={successful} />
+      <div className="lottie-container">
+        <Lottie loop={false} animationData={successful} />
+      </div>
     </div>
   );
 
   return (
     <section id="contacto">
-      {isSuccess ? successMessage : null}
       <div id="datos-contacto">
         <h2 id="datos-contacto-titulo">DATOS DE CONTACTO</h2>
         <ul id="datos-contacto-lista">
@@ -86,6 +87,7 @@ export const Contacto = () => {
       </div>
       <div id="divisor-contactos" />
       <form id="formulario-contacto" ref={form} onSubmit={sendEmail}>
+        {isSuccess ? successMessage : null}
         <h2 id="titulo-contacto">FORMULARIO DE CONTACTO</h2>
         <label>Nombre completo:</label>
         <input type="text" name="from_name" required />

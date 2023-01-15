@@ -63,6 +63,7 @@
 }
 
 #formulario-contacto {
+  position: relative;
   width: 100%;
   display: flex;
   flex-flow: column;
@@ -109,7 +110,7 @@ select option:disabled {
 
   .successMessage-box {
     box-sizing: border-box;
-    padding: 7rem;
+    /* padding: 7rem; */
     position: absolute;
     z-index: 2;
     width: 100%;
@@ -123,4 +124,8 @@ select option:disabled {
     flex-flow: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .lottie-container {
+    width: 20rem;
   }
