@@ -7,6 +7,7 @@ import { Ubicacion } from "./ubicacion/Ubicacion";
 
 import "./main.css";
 import { Contacto } from "./contacto/Contacto";
+import { Clientes2 } from "./clientes/Clientes2";
 
 export const Main = () => {
   return (
@@ -15,6 +16,7 @@ export const Main = () => {
       <Empresa />
       <Nosotros />
       <Servicios />
+      <Clientes2 />
       <Clientes />
       <Contacto />
       <Ubicacion />

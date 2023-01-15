@@ -1,0 +1,44 @@
+.clientes__slider-container {
+  overflow: hidden;
+}
+
+.clientes__slider {
+  position: relative;
+  background: #fff;
+  padding: 1rem;
+  overflow: hidden;
+  width: 2000px;
+}
+
+.clientes__slider img {
+  width: 6rem;
+}
+
+.clientes__slider-fotos { 
+  position: relative;
+  height: 6rem;
+  width: 100%;
+  animation: slider 40s infinite linear;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  
+}
+
+@keyframes slider {
+  from{
+    right: 149%;
+  }
+  to {
+    right: 0;
+  }
+}
+
+.clientes__slider-cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(22, 22, 22, .4);
+  bottom: 0;
+  left: 0;
+}
