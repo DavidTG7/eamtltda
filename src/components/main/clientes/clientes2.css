@@ -1,4 +1,4 @@
-.clientes__slider-container {
+.clientes__container {
   overflow: hidden;
   display: flex;
   flex-flow: column;
@@ -7,13 +7,13 @@
   background: #fff;
 }
 
-.clientes__slider-title {
+.clientes__title {
   font-size: 3rem;
   font-weight: 600;
   margin: 2rem auto 1rem;
 }
 
-.clientes__slider-container hr {
+.clientes__container hr {
   margin: auto;
   width: 95%;
 }
