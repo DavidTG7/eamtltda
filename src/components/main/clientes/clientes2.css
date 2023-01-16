@@ -59,3 +59,41 @@
   bottom: 0;
   left: 0;
 }
+
+.clientes__sectores p {
+  margin: 2rem;
+}
+
+.clientes__sectores-cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.clientCard__container {
+  /* border: 1px solid #252525; */
+
+  border-radius: 15px;
+  width: 20rem;
+  height: 6rem;
+  
+  padding: .8rem 3rem;
+  display: flex;
+  /* align-items: center; */
+  text-align: center;
+  justify-content: center;
+
+  
+}
+
+.clientCard__container p {
+  font-weight: 800;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.gradient__text {
+}
+
