@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { RiMenuLine, RiCloseLine } from "react-icons/ri";
+import logo from "./logo.png" 
+
 import "./header.css";
 
 const Links = ({ setToggleMenu }) => {
@@ -35,7 +37,8 @@ export const Header = () => {
   return (
     <header>
       <div className="eamt__navbar">
-        <h1>EAMTLTDA</h1>
+      <img src={logo} alt="logo" />
+        {/* <h1>EAMTLTDA</h1> */}
         <div className="eamt__navbar-links">
           <Links />
         </div>
@@ -43,13 +46,13 @@ export const Header = () => {
           {toggleMenu ? (
             <RiCloseLine
               color="fff"
-              size="27"
+              size="45"
               onClick={() => setToggleMenu(false)}
             />
           ) : (
             <RiMenuLine
               color="fff"
-              size="27"
+              size="45"
               onClick={() => setToggleMenu(true)}
             />
           )}

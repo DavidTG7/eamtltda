@@ -4,8 +4,13 @@
   justify-content: space-between;
   align-items: baseline;
   color: #fff;
-  padding: 1.5rem 2rem .7rem;
+  padding: 1rem 2rem .7rem;
   background: rgb(8, 39, 80);
+}
+
+.eamt__navbar img {
+  width: 12rem;
+  z-index: 5;
 }
 
 .eamt__navbar h1 {
@@ -17,7 +22,7 @@
 .eamt__navbar ul {
   margin: 0;
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .eamt__navbar li {
@@ -80,5 +85,12 @@
 
   .eamt__navbar-menu {
     display: block;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .eamt__navbar {
+    align-items: center;
+    padding-bottom: 1.3rem;
   }
 }
