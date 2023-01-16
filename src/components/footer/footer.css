@@ -9,6 +9,8 @@
   height: 100rem;
   width: 100%;
   background: linear-gradient(rgb(237, 237, 237) 1%, rgb(9, 46, 95) 100%);
+  /* background: linear-gradient(rgba(9, 46, 95,.05) 0%, rgb(9, 46, 95) 70%, rgb(9, 46, 95) 100%); */
+
 }
 
 #footer p {
