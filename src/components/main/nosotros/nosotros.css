@@ -57,14 +57,15 @@
 
 @media screen and (max-width: 680px) {
   .servicio-caja {
-    width: 9.9rem;
+    width: 9.7rem;
   }
 
   #servicios-grid {
     padding: 1rem 0;
+    gap: .9rem;
   }
 
   #servicios {
-    padding: 1rem .5rem;
+    padding: 1rem .8rem;
   }
 }
