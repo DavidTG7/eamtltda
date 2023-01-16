@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/eamtltda/static/css/main.879cdb44.css",
+    "main.css": "/eamtltda/static/css/main.12c9d44f.css",
     "main.js": "/eamtltda/static/js/main.3f11baf4.js",
     "static/media/bg.jpg": "/eamtltda/static/media/bg.dd3302ab1417b212eae8.jpg",
     "static/media/objetivo.jpg": "/eamtltda/static/media/objetivo.cde94afdfab3eb7205f0.jpg",
@@ -58,11 +58,11 @@
     "static/media/location.svg": "/eamtltda/static/media/location.6f3aa88e79f6a1e031c5a822757b9425.svg",
     "static/media/email.svg": "/eamtltda/static/media/email.56058da1f2ed96c18f68b647b2a9fed8.svg",
     "static/media/upArrow.svg": "/eamtltda/static/media/upArrow.0c1b14a0a92f9039299a2a8b79c68d49.svg",
-    "main.879cdb44.css.map": "/eamtltda/static/css/main.879cdb44.css.map",
+    "main.12c9d44f.css.map": "/eamtltda/static/css/main.12c9d44f.css.map",
     "main.3f11baf4.js.map": "/eamtltda/static/js/main.3f11baf4.js.map"
   },
   "entrypoints": [
-    "static/css/main.879cdb44.css",
+    "static/css/main.12c9d44f.css",
     "static/js/main.3f11baf4.js"
   ]
 }
