@@ -34,7 +34,7 @@
   width: 10rem;
   border-radius: 10px;
   padding: 1rem;
-  background: rgb(3, 136, 213);
+  background: #00348f;
   transition: .2s;
   text-decoration: none;
 }
@@ -46,13 +46,14 @@
 
 .servicio-caja:hover{
   transform: scale(1.05);
-  background: rgb(18, 163, 246);
+  background: #004ed3;
 }
 
 .servicio-caja p {
   text-align: center;
   text-decoration: none;
   color: white;
+  font-weight: 800;
 }
 
 @media screen and (max-width: 680px) {
