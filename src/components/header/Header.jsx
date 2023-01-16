@@ -37,8 +37,7 @@ export const Header = () => {
   return (
     <header>
       <div className="eamt__navbar">
-      <img src={logo} alt="logo" />
-        {/* <h1>EAMTLTDA</h1> */}
+      <img src={logo} alt="logo-EAMT" />
         <div className="eamt__navbar-links">
           <Links />
         </div>

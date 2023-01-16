@@ -96,7 +96,7 @@ const servicios = [
 export const todosLosServicios = servicios.map(({ nombre, href, imagen }) => {
   return (
     <a href={`#${href}`} className="servicio-caja" key={nombre}>
-      <img className="servicio-icono" src={imagen} alt={nombre} />
+      <img className="servicio-icono" src={imagen} alt={`logo-${nombre}`} />
       <p>{nombre}</p>
     </a>
   );

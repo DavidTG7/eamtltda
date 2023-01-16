@@ -32,16 +32,15 @@ export const Intro = () => {
               <img
                 className="intro-carrusel-contenido-imagen"
                 src={logo}
-                alt="Logo"
+                alt="Logo-slider1"
               />
               <p className="intro-carrusel-contenido-texto">
-                {/* <h3>EAMT LTDA</h3> */}
                 Es una empresa colombiana con 25 años de experiencia en
                 Consultoría y Asesoría que apoya las organizaciones en la
                 auditoria de procesos, detección de riesgos, diseño de
                 estrategias, ejecución de planes de acción y apoya las
                 iniciativas de documentación, implementación y automatización de
-                Procesos de Negocios.{" "}
+                Procesos de Negocios.
               </p>
             </div>
             <div className="intro-contenedor-imagen">
@@ -59,7 +58,7 @@ export const Intro = () => {
               <img
                 className="intro-carrusel-contenido-imagen"
                 src={logo}
-                alt="Logo"
+                alt="Logo-slider2"
               />
               <p className="intro-carrusel-contenido-texto">
                 Ponemos al servicio de nuestros aliados estratégicos la

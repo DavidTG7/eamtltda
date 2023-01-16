@@ -19,7 +19,7 @@ export const Empresa = () => {
       <EmpresaTitle>EMPRESA</EmpresaTitle>
       <hr />
       <EmpresaSingleCard id="mision">
-        <ItemImage src={mision} />
+        <ItemImage src={mision} alt="misionImg"/>
         <ItemTextBox>
           <ItemSubTitle>Misión</ItemSubTitle>
           <ItemParagraph>
@@ -34,7 +34,7 @@ export const Empresa = () => {
       </EmpresaSingleCard>
       <hr />
       <EmpresaSingleCard id="vision" left>
-        <ItemImage src={vision} />
+        <ItemImage src={vision} alt="visionImg"/>
         <ItemTextBox>
           <ItemSubTitle>Visión</ItemSubTitle>
           <ItemParagraph left>
@@ -49,7 +49,7 @@ export const Empresa = () => {
       </EmpresaSingleCard>
       <hr />
       <EmpresaSingleCard id="politicas-calidad">
-        <ItemImage src={calidad} />
+        <ItemImage src={calidad} alt="calidadImg"/>
         <ItemTextBox>
           <ItemSubTitle>Políticas de Calidad</ItemSubTitle>
           <ItemParagraph>
@@ -82,7 +82,7 @@ export const Empresa = () => {
       </EmpresaSingleCard>
       <hr />
       <EmpresaSingleCard column id="objetivos-calidad">
-        <ItemImage src={objetivo} />
+        <ItemImage src={objetivo} alt="objetivosImg"/>
         <ItemTextBox>
           <ItemSubTitle>Objetivos de Calidad</ItemSubTitle>
           <ItemParagraph left>

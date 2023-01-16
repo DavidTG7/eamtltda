@@ -71,7 +71,7 @@ export const Contacto = () => {
             <span>3136473798 - 3128880345</span>
           </li>
           <li>
-            <img className="datos-icon" src={email} alt="phone-icon" />
+            <img className="datos-icon" src={email} alt="email-icon" />
             <span>juanjrodriguezperez@gmail.com</span>
           </li>
         </ul>
