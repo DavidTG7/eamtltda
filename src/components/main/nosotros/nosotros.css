@@ -25,7 +25,6 @@
   padding: 2rem;
 }
 
-
 .servicio-caja {
   display: flex;
   flex-flow: column;
@@ -54,5 +53,18 @@
   text-align: center;
   text-decoration: none;
   color: white;
-  
+}
+
+@media screen and (max-width: 680px) {
+  .servicio-caja {
+    width: 9.9rem;
+  }
+
+  #servicios-grid {
+    padding: 1rem 0;
+  }
+
+  #servicios {
+    padding: 1rem .5rem;
+  }
 }
