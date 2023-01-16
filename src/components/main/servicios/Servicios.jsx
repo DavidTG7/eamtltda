@@ -13,7 +13,6 @@ import IPlaneacion from "./image/Planeacion.png";
 import IRedes from "./image/redes.png";
 import IInterventoria from "./image/interventoria.png";
 import ISistemas from "./image/Sistemas.png";
-import Button from "react-bootstrap/Button";
 
 import { LineDivisor } from "./servicios.styled";
 
@@ -33,7 +32,6 @@ export const Servicios = () => {
             <li>Diseño de procedimientos de seguridad</li>
           </ul>
           <LineDivisor color="rgba(29, 250, 0, 1)" />
-          {/* <Button variant="success">Conoce más</Button> */}
         </div>
       </div>
       <hr />
@@ -46,7 +44,6 @@ export const Servicios = () => {
             <li>Diseño de Soluciones de seguridad</li>
           </ul>
           <LineDivisor color="rgba(222, 25, 0, 0.8)" />
-          {/* <Button variant="success">Conoce más</Button> */}
         </div>
         <img
           className="servicios-contenedor-img"
@@ -71,7 +68,6 @@ export const Servicios = () => {
             <li>Estándares de control de acceso</li>
           </ul>
           <LineDivisor color="rgba(189, 25, 230, 0.8)" />
-          {/* <Button variant="success">Conoce más</Button> */}
         </div>
       </div>
       <hr />
@@ -84,7 +80,6 @@ export const Servicios = () => {
             <li>Aplicación de normatividad estatal</li>
           </ul>
           <LineDivisor color="rgba(20, 234, 209, 0.8)" />
-          {/* <Button variant="success">Conoce más</Button> */}
         </div>
         <img className="servicios-contenedor-img" src={IPoliticas} alt="Logo" />
       </div>
@@ -100,7 +95,6 @@ export const Servicios = () => {
             <li>Administración de incidentes de seguridad</li>
           </ul>
           <LineDivisor color="rgba(226, 16, 18, 0.8)" />
-          {/* <Button variant="success">Conoce más</Button> */}
         </div>
       </div>
       <hr />
@@ -112,7 +106,6 @@ export const Servicios = () => {
             <li>Monitoreo de controles de seguridad.</li>
           </ul>
           <LineDivisor color="rgba(229, 153, 39, 0.8)" />
-          {/* <Button variant="success">Conoce más</Button> */}
         </div>
         <img
           className="servicios-contenedor-img"
@@ -136,7 +129,6 @@ export const Servicios = () => {
             </li>
           </ul>
           <LineDivisor color="rgba(57, 210, 19, 0.8)" />
-          {/* <Button variant="success">Conoce más</Button> */}
         </div>
       </div>
       <hr />
@@ -149,7 +141,6 @@ export const Servicios = () => {
             <li>Auditoria en la aplicación de controles</li>
           </ul>
           <LineDivisor color="rgba(50, 225, 216, 0.8)" />
-          {/* <Button variant="success">Conoce más</Button> */}
         </div>
         <img className="servicios-contenedor-img" src={IAuditoria} alt="Logo" />
       </div>
@@ -168,7 +159,6 @@ export const Servicios = () => {
             <li>Diseño de politicas y objetivos de calidad</li>
           </ul>
           <LineDivisor color="rgba(50, 225, 216, 0.8)" />
-          {/* <Button variant="success">Conoce más</Button> */}
         </div>
       </div>
       <hr />
@@ -183,7 +173,6 @@ export const Servicios = () => {
             </li>
           </ul>
           <LineDivisor color="rgba(241, 222, 36, 0.8)" />
-          {/* <Button variant="success">Conoce más</Button> */}
         </div>
         <img className="servicios-contenedor-img" src={IMonitoreo} alt="Logo" />
       </div>
@@ -200,7 +189,6 @@ export const Servicios = () => {
             </li>
           </ul>
           <LineDivisor color="rgba(160, 233, 45, 0.8)" />
-          {/* <Button variant="success">Conoce más</Button> */}
         </div>
       </div>
       <hr />
@@ -215,7 +203,6 @@ export const Servicios = () => {
             <li>Creación de portales corporativos y sistemas de información</li>
           </ul>
           <LineDivisor color="rgba(111, 90, 238, 0.8)" />
-          {/* <Button variant="success">Conoce más</Button> */}
         </div>
         <img className="servicios-contenedor-img" src={IPortalWeb} alt="Logo" />
       </div>
@@ -236,7 +223,6 @@ export const Servicios = () => {
             </li>
           </ul>
           <LineDivisor color="rgba(160, 233, 45, 0.8)" />
-          {/* <Button variant="success">Conoce más</Button> */}
         </div>
       </div>
       <hr />
@@ -250,7 +236,6 @@ export const Servicios = () => {
             </li>
           </ul>
           <LineDivisor color="rgba(189, 25, 230, 0.8)" />
-          {/* <Button variant="success">Conoce más</Button> */}
         </div>
         <img className="servicios-contenedor-img" src={IRedes} alt="Logo" />
       </div>
@@ -270,7 +255,6 @@ export const Servicios = () => {
             <li>Aplicativos en producción</li>
           </ul>
           <LineDivisor color="rgba(20, 234, 209, 0.8)" />
-          {/* <Button variant="success">Conoce más</Button>  */}
         </div>
       </div>
       <hr />
@@ -288,12 +272,9 @@ export const Servicios = () => {
             </li>
           </ul>
           <LineDivisor color="rgba(189, 25, 230, 0.8)" />
-          {/* <Button variant="success">Conoce más</Button> */}
         </div>
         <img className="servicios-contenedor-img" src={ISistemas} alt="Logo" />
       </div>
     </div>
   );
 };
-
-// Nominacion de clases: BEM Block Element Modifier

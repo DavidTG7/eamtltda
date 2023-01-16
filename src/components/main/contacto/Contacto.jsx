@@ -57,6 +57,27 @@ export const Contacto = () => {
     </div>
   );
 
+  const selectOptions = [
+    "Gestión de Riesgos",
+    "Análisis de Seguridad",
+    "Conctrol de Acceso",
+    "Políticas de Seguridad",
+    "Incidentes de Seguridad",
+    "Protección",
+    "Personal de Seguridad",
+    "Auditoria",
+    "Procesos y Procedimientos",
+    "SGC",
+    "Auditoria de Sistemas",
+    "Software y Portales Web",
+    "Planeación",
+    "Redes",
+    "Interventoria",
+    "Otro"
+  ];
+
+  const allOptions = selectOptions.map(item => <option>{item}</option>)
+
   return (
     <section id="contacto">
       <div id="datos-contacto">
@@ -95,12 +116,7 @@ export const Contacto = () => {
         <input type="email" name="from_email" required />
         <label>Motivo de contacto:</label>
         <select name="servicio" required>
-          <option>Servicio 1</option>
-          <option>Servicio 2</option>
-          <option>Servicio 3</option>
-          <option>Servicio 4</option>
-          <option>Servicio 5</option>
-          <option>Otro</option>
+          {allOptions}
         </select>
         <label>Mensaje:</label>
         <textarea name="message" rows="5" required />
