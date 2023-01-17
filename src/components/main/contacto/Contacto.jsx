@@ -96,7 +96,7 @@ export const Contacto = () => {
             <span>juanjrodriguezperez@gmail.com</span>
           </li>
         </ul>
-        <h4>Contáctanos por WhatsApp</h4>
+        <h3>Contáctanos por WhatsApp</h3>
         <a
           id="whatsapp-box"
           href="https://wa.me/+573006155805"

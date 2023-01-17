@@ -93,7 +93,7 @@ export const Empresa = () => {
             satisfacción de los Clientes y Usuarios de los servicios prestados,
             incluida la Comunidad, EAMT LTDA se propone:
           </ItemParagraph>
-          <ol type="a">
+          <ol className="ol-2column" type="a">
             <li>
               Garantizar las características de calidad en cuanto a oportunidad,
               seguridad, confiabilidad y asesoría establecidas por la Empresa y
@@ -120,7 +120,7 @@ export const Empresa = () => {
               Mejorar y mantener la competencia y desempeño del Recurso Humano
               que afecta directamente la calidad del servicio, a través de
               programas de capacitación que afiancen sus fortalezas y destrezas,
-              y de un plan de comunicación y censibilización en donde comprendan
+              y de un plan de comunicación y sensibilización en donde comprendan
               la importancia de la satisfacción del cliente y que entiendan el
               direccionamiento estratégico de la empresa.
             </li>
@@ -128,7 +128,7 @@ export const Empresa = () => {
               Mantener el nivel de mejora continua en los procesos del Sistema
               de Gestión de la Calidad, identificando y previniendo los riesgos
               inherentes a la operación, aplicando las acciones necesarias para
-              mitigar su impacto en la Gestión
+              mitigar su impacto en la gestión.
             </li>
           </ol>
           <LowDivisor color="rgba(29, 250, 0, 1)" />

@@ -271,7 +271,7 @@ export const Servicios = () => {
           </ul>
           <LineDivisor color="rgba(189, 25, 230, 0.8)" />
         </div>
-        <img className="servicios-contenedor-img" src={IRedes} alt="Logo" />
+        <img className="servicios-contenedor-img" src={IRedes} alt="redesImg" />
       </div>
       <hr />
       <div className="servicios-contenedor" id="Interventoria">

@@ -2,6 +2,11 @@
   border: solid blue 3px;
 }
 
+.eamtTitleH1-hidden {
+  position: absolute;
+  color: transparent;
+}
+
 .intro-titulo {
   color: green;
 }
@@ -81,10 +86,6 @@
   border-radius: 10px;
   border: transparent;
   background: rgb(26 71 196) !important;
-}
-
-.intro-carrusel-contenido-texto {
-  text-align: justify;
 }
 
 .carousel-control-prev-icon,

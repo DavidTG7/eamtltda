@@ -4,9 +4,9 @@ export const Footer = () => {
   return (
     <footer id="footer">
       <p>
-        Developed by Cognitio Airtifacts © 2022
+        Developed by Cognitio Artifacts© 2023
         <br />
-        EAMLTADA
+        EAMT LTDA
       </p>
     </footer>
   );

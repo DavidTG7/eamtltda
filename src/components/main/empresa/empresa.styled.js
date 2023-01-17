@@ -36,7 +36,19 @@ export const ItemImage = styled.img`
   }
 `;
 
-export const ItemTextBox = styled.div``;
+export const ItemTextBox = styled.div`
+  .ol-2column {
+    column-count: 2;
+    column-gap: 4rem;
+    /* column-rule:4px dotted gray; */
+  }
+
+  @media screen and (max-width: 1000px) {
+    .ol-2column {
+      column-count: 1;
+    }
+  }
+`;
 
 export const ItemSubTitle = styled.h3`
   text-align: center;
