@@ -350,8 +350,7 @@ export const Servicios = () => {
             <li>
               Recolectar, analizar y utilizar datos para tomar decisiones informadas en la empresa.
             </li>
-            
-          </ul>
+            </ul>
           <LineDivisor color="rgba(189, 25, 230, 0.8)" />
         </div>
         <img

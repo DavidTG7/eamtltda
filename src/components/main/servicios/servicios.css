@@ -46,7 +46,7 @@
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  max-width: 500px;
+  max-width: 546px;
   width: 50%;
 }
 .servicios-contenedor-texto-caracteristicas li {
@@ -59,4 +59,15 @@
     max-width: 500px;
     width: 100%;
   }
+}
+
+.clientes-contenedor-texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  max-width: 500px;
+  width: 90%;
+  margin: auto;
 }

@@ -18,6 +18,9 @@ import Cobelen from "./Cobelen.jpg";
 import Cfa from "./Cfa.jpg";
 import Cofincafe from "./Cofincafe.jpg";
 import UltraHuila from "./UltraHuila.jpg";
+import BancoAgrario from "./BancoAgrario.jpg";
+import Bancolombia from "./Bancolombia.png";
+import BBVA from "./BBVA.jpg";
 
 export const imagenesCorporativo = (
   <>
@@ -41,5 +44,8 @@ export const imagenesCorporativo = (
     <img src={Cfa} alt="Cfa" />
     <img src={Cofincafe} alt="Cofincafe" />
     <img src={UltraHuila} alt="UltraHuila" />
+    <img src={BancoAgrario} alt="BancoAgrario" />
+    <img src={Bancolombia} alt="Bancolombia" />
+    <img src={BBVA} alt="BBVA" />
   </>
 );
