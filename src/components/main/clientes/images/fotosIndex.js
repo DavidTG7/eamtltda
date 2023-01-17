@@ -22,7 +22,7 @@ import mintic from "./mintic.jpg";
 import anh from "./anh.png";
 import UBPD from "./UBPD.png";
 
-export const images = (
+export const imagesPublico = (
   <>
     <img src={Funat} alt="funat" />
     <img src={ACI} alt="ACI" />

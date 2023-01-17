@@ -1,4 +1,6 @@
-import { images } from "./images/fotosIndex";
+import { imagesPublico } from "./images/fotosIndex";
+import { imagenesEmpleados } from "./images/fotosEmpleados";
+import { imagenesCorporativo } from "./images/fotosCorporativo";
 
 import "./clientes.css";
 
@@ -20,8 +22,16 @@ export const Clientes = () => {
         </div>
         <div className="clientes__slider">
           <div className="clientes__slider-fotos">
-            {images}
-            {images}
+            {imagesPublico}
+            {imagesPublico}
+          </div>
+          <div className="clientes__slider-fotos">
+            {imagenesCorporativo}
+            {imagenesCorporativo}
+          </div>
+          <div className="clientes__slider-fotos">
+            {imagenesEmpleados}
+            {imagenesEmpleados}
           </div>
           <div className="clientes__slider-cover" />
         </div>
