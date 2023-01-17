@@ -38,9 +38,9 @@ export const Empresa = () => {
         <ItemTextBox>
           <ItemSubTitle>Visión</ItemSubTitle>
           <ItemParagraph left>
-            Ser en el 2025 reconocidos como la empresa líder en Asesoría y
-            Consultoría en Tecnología, con posicionamiento y cobertura en el
-            mercado Nacional, convirtiéndonos en la mejor alianza estratégica
+            Ser en el 2025 reconocidos como una empresa líder en asesoría y
+            consultoría en tecnología, con posicionamiento y cobertura en el
+            mercado nacional, convirtiéndonos en la mejor alianza estratégica
             para nuestros clientes, proporcionando altos estándares de calidad
             con servicios oportunos y efectivos.
           </ItemParagraph>
@@ -100,29 +100,29 @@ export const Empresa = () => {
               ofrecidas a los clientes y público en general.
             </li>
             <li>
-              Establecer un adecuado y efectivo servicio de Satisfacción y
-              orientación al Cliente, por medio de la gestión y atención
+              Establecer un adecuado y efectivo servicio de satisfacción y
+              orientación al cliente, por medio de la gestión y atención
               oportuna de quejas, reclamos, sugerencias y consultas realizadas
-              por los Clientes tanto internos como externos.
+              por los clientes tanto internos como externos.
             </li>
             <li>
-              Movilizar a la Empresa hacia la Excelencia y a la Calidad Total,
+              Movilizar la empresa hacia la excelencia y a la calidad total,
               mediante la habilitación del trabajo, la aplicación tecnológica e
-              infraestructura adecuada y el desarrollo del Talento Humano.
+              infraestructura adecuada y el desarrollo del talento humano.
             </li>
             <li>
               Maximizar la eficiencia de la operación para disminuir costos,
               para brindar asesorías y consultorías con altos índices de calidad
-              y control, así mismo aumentar las reservas de Capital de la
-              Empresa.
+              y control, así mismo aumentar las reservas de capital de la
+              empresa.
             </li>
             <li>
               Mejorar y mantener la competencia y desempeño del Recurso Humano
-              que afecta directamente la Calidad del servicio, a través de
-              programas de Capacitación que afiancen sus Fortalezas y Destrezas,
-              y de un plan de Comunicación y Sensibilización en donde comprendan
-              la importancia de la Satisfacción del Cliente y que entiendan el
-              direccionamiento estratégico de la Empresa.
+              que afecta directamente la calidad del servicio, a través de
+              programas de capacitación que afiancen sus fortalezas y destrezas,
+              y de un plan de comunicación y censibilización en donde comprendan
+              la importancia de la satisfacción del cliente y que entiendan el
+              direccionamiento estratégico de la empresa.
             </li>
             <li>
               Mantener el nivel de mejora continua en los procesos del Sistema

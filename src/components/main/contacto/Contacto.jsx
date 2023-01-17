@@ -60,23 +60,23 @@ export const Contacto = () => {
   const selectOptions = [
     "Gestión de Riesgos",
     "Análisis de Seguridad",
-    "Conctrol de Acceso",
+    "Control de Acceso",
     "Políticas de Seguridad",
     "Incidentes de Seguridad",
     "Protección",
     "Personal de Seguridad",
-    "Auditoria",
+    "Auditoría",
     "Procesos y Procedimientos",
     "SGC",
-    "Auditoria de Sistemas",
+    "Auditoría de Sistemas",
     "Software y Portales Web",
     "Planeación",
     "Redes",
-    "Interventoria",
-    "Otro"
+    "Interventoría",
+    "Otro",
   ];
 
-  const allOptions = selectOptions.map(item => <option>{item}</option>)
+  const allOptions = selectOptions.map((item) => <option>{item}</option>);
 
   return (
     <section id="contacto">
@@ -110,16 +110,24 @@ export const Contacto = () => {
       <form id="formulario-contacto" ref={form} onSubmit={sendEmail}>
         {isSuccess ? successMessage : null}
         <h2 id="titulo-contacto">FORMULARIO DE CONTACTO</h2>
-        <label>Nombre completo:</label>
-        <input type="text" name="from_name" required />
-        <label>Email:</label>
-        <input type="email" name="from_email" required />
-        <label>Motivo de contacto:</label>
-        <select name="servicio" required>
-          {allOptions}
-        </select>
-        <label>Mensaje:</label>
-        <textarea name="message" rows="5" required />
+        <label>
+          Nombre completo:
+          <input type="text" name="from_name" required />
+        </label>
+        <label>
+          Email:
+          <input type="email" name="from_email" required />
+        </label>
+        <label>
+          Motivo de contacto:
+          <select name="servicio" required>
+            {allOptions}
+          </select>
+        </label>
+        <label>
+          Mensaje:
+          <textarea name="message" rows="5" required />
+        </label>
         <input type="submit" value={isSuccess ? "ENVIANDO..." : "ENVIAR"} />
       </form>
     </section>

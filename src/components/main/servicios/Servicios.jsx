@@ -20,16 +20,20 @@ export const Servicios = () => {
   return (
     <div className="contenedor-servicios-general">
       <div className="servicios-contenedor" id="Riesgos">
-        <img className="servicios-contenedor-img" src={IRiesgos} alt="Logo" />
+        <img
+          className="servicios-contenedor-img"
+          src={IRiesgos}
+          alt="riesgosImg"
+        />
         <div className="servicios-contenedor-texto">
           <h3>Gestion de Riesgos</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
             <li>Análisis de Riesgos.</li>
             <li>Mantenimiento de mapas de riesgos.</li>
-            <li>Pruebas de Intrusion de sistemas</li>
-            <li>Monitoreo de eventos de Seguridad</li>
-            <li>Administración de incidentes de Seguridad</li>
-            <li>Diseño de procedimientos de seguridad</li>
+            <li>Pruebas de intrusión de sistemas.</li>
+            <li>Monitoreo de eventos de seguridad.</li>
+            <li>Administración de incidentes de seguridad.</li>
+            <li>Diseño de procedimientos de seguridad.</li>
           </ul>
           <LineDivisor color="rgba(29, 250, 0, 1)" />
         </div>
@@ -39,16 +43,16 @@ export const Servicios = () => {
         <div className="servicios-contenedor-texto">
           <h3>Análisis de Seguridad</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
-            <li>Gap del estado de seguridad</li>
-            <li>Análisis de madurez de seguridad</li>
-            <li>Diseño de Soluciones de seguridad</li>
+            <li>Gap del estado de seguridad.</li>
+            <li>Análisis de madurez de seguridad.</li>
+            <li>Diseño de soluciones de seguridad.</li>
           </ul>
           <LineDivisor color="rgba(222, 25, 0, 0.8)" />
         </div>
         <img
           className="servicios-contenedor-img"
           src={IAnalisisSeguridad}
-          alt="Logo"
+          alt="analisisSeguridadImg"
         />
       </div>
       <hr />
@@ -56,16 +60,16 @@ export const Servicios = () => {
         <img
           className="servicios-contenedor-img"
           src={IControlDeAcesso}
-          alt="Logo"
+          alt="controlAccesoImg"
         />
         <div className="servicios-contenedor-texto">
           <h3>Control de Acceso</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
-            <li>Diseño de Modelo de control de acceso</li>
-            <li>Monitoreo de control de acceso</li>
-            <li>Auditoria de control de acceso</li>
-            <li>Políticas de control de acceso</li>
-            <li>Estándares de control de acceso</li>
+            <li>Diseño de modelo de control de acceso.</li>
+            <li>Monitoreo de control de acceso.</li>
+            <li>Auditoría de control de acceso.</li>
+            <li>Políticas de control de acceso.</li>
+            <li>Estándares de control de acceso.</li>
           </ul>
           <LineDivisor color="rgba(189, 25, 230, 0.8)" />
         </div>
@@ -75,24 +79,32 @@ export const Servicios = () => {
         <div className="servicios-contenedor-texto" id="PSeguridad">
           <h3>Políticas de Seguridad</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
-            <li>Diseño y desarrollo de políticas y estándares de seguridad</li>
-            <li>Capacitación en seguridad</li>
-            <li>Aplicación de normatividad estatal</li>
+            <li>Diseño y desarrollo de políticas y estándares de seguridad.</li>
+            <li>Capacitación en seguridad.</li>
+            <li>Aplicación de normatividad estatal.</li>
           </ul>
           <LineDivisor color="rgba(20, 234, 209, 0.8)" />
         </div>
-        <img className="servicios-contenedor-img" src={IPoliticas} alt="Logo" />
+        <img
+          className="servicios-contenedor-img"
+          src={IPoliticas}
+          alt="politicasImg"
+        />
       </div>
       <hr />
       <div className="servicios-contenedor" id="ISeguridad">
-        <img className="servicios-contenedor-img" src={IMonitoreo} alt="Logo" />
+        <img
+          className="servicios-contenedor-img"
+          src={IMonitoreo}
+          alt="monitoreImg"
+        />
         <div className="servicios-contenedor-texto">
           <h3>Incidentes de Seguridad</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
-            <li>Apoyo en incidentes de seguridad</li>
-            <li>Investigación en incidentes de seguridad</li>
-            <li>Monitoreo de incidentes de seguridad</li>
-            <li>Administración de incidentes de seguridad</li>
+            <li>Apoyo en incidentes de seguridad.</li>
+            <li>Investigación en incidentes de seguridad.</li>
+            <li>Monitoreo de incidentes de seguridad.</li>
+            <li>Administración de incidentes de seguridad.</li>
           </ul>
           <LineDivisor color="rgba(226, 16, 18, 0.8)" />
         </div>
@@ -102,7 +114,7 @@ export const Servicios = () => {
         <div className="servicios-contenedor-texto">
           <h3>Protección</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
-            <li>Diseño e implementación de controles de seguridad</li>
+            <li>Diseño e implementación de controles de seguridad.</li>
             <li>Monitoreo de controles de seguridad.</li>
           </ul>
           <LineDivisor color="rgba(229, 153, 39, 0.8)" />
@@ -110,7 +122,7 @@ export const Servicios = () => {
         <img
           className="servicios-contenedor-img"
           src={IProteccion}
-          alt="Logo"
+          alt="proteccionImg"
         />
       </div>
       <hr />
@@ -118,14 +130,14 @@ export const Servicios = () => {
         <img
           className="servicios-contenedor-img"
           src={IPersonalSeguridad}
-          alt="Logo"
+          alt="personalSeguridadImg"
         />
         <div className="servicios-contenedor-texto">
           <h3>Personal de Seguridad</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
             <li>
-              Recurso Especializado en Seguridad Informática de acuerdo a las
-              directrices de las normas ISO 17799 - 27001 - 27002 (SGSI)
+              Recurso especializado en seguridad informática de acuerdo a las
+              directrices de las normas ISO 17799 - 27001 - 27002 (SGSI).
             </li>
           </ul>
           <LineDivisor color="rgba(57, 210, 19, 0.8)" />
@@ -134,29 +146,37 @@ export const Servicios = () => {
       <hr />
       <div className="servicios-contenedor invertido" id="Auditoria">
         <div className="servicios-contenedor-texto">
-          <h3>Auditoria</h3>
+          <h3>Auditoría</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
-            <li>Auditoria de cumplimiento de Seguridad</li>
-            <li>Auditoria a los sistemas de información</li>
-            <li>Auditoria en la aplicación de controles</li>
+            <li>Auditoría de cumplimiento de seguridad.</li>
+            <li>Auditoría a los sistemas de información.</li>
+            <li>Auditoría en la aplicación de controles.</li>
           </ul>
           <LineDivisor color="rgba(50, 225, 216, 0.8)" />
         </div>
-        <img className="servicios-contenedor-img" src={IAuditoria} alt="Logo" />
+        <img
+          className="servicios-contenedor-img"
+          src={IAuditoria}
+          alt="auditoriaImg"
+        />
       </div>
       <hr />
       <div className="servicios-contenedor" id="Procesos">
-        <img className="servicios-contenedor-img" src={IProcesos} alt="Logo" />
+        <img
+          className="servicios-contenedor-img"
+          src={IProcesos}
+          alt="procesosImg"
+        />
         <div className="servicios-contenedor-texto">
           <h3>Procesos y Procedimientos</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
-            <li>Diseño de procesos y procedimientos</li>
-            <li>Diseño del mapa de Procesos</li>
-            <li>Auditorias de calidad y control</li>
+            <li>Diseño de procesos y procedimientos.</li>
+            <li>Diseño del mapa de procesos.</li>
+            <li>Auditorías de calidad y control.</li>
             <li>
-              Diseño e implementación del sistema de gestión de calidad (SGC)
+              Diseño e implementación del sistema de gestión de calidad (SGC).
             </li>
-            <li>Diseño de politicas y objetivos de calidad</li>
+            <li>Diseño de políticas y objetivos de calidad.</li>
           </ul>
           <LineDivisor color="rgba(50, 225, 216, 0.8)" />
         </div>
@@ -164,26 +184,34 @@ export const Servicios = () => {
       <hr />
       <div className="servicios-contenedor invertido" id="SGC">
         <div className="servicios-contenedor-texto">
-          <h3>SGC.</h3>
+          <h3>SGC</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
             <li>
               Diseño, implementación y puesta en marcha del sistema de gestión
-              de calidad, de acuerdo a las directrices y políticas de la Norma
+              de calidad, de acuerdo a las directrices y políticas de la norma
               ISO 9001 versióm 2000.
             </li>
           </ul>
           <LineDivisor color="rgba(241, 222, 36, 0.8)" />
         </div>
-        <img className="servicios-contenedor-img" src={IMonitoreo} alt="Logo" />
+        <img
+          className="servicios-contenedor-img"
+          src={IMonitoreo}
+          alt="monitoreoImg"
+        />
       </div>
       <hr />
       <div className="servicios-contenedor" id="AuditoriaSistemas">
-        <img className="servicios-contenedor-img" src={IAuditoria} alt="Logo" />
+        <img
+          className="servicios-contenedor-img"
+          src={IAuditoria}
+          alt="auditoriaImg"
+        />
         <div className="servicios-contenedor-texto">
           <h3>Auditoria de Sistemas</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
             <li>
-              Recurso humano especializado en auditoria de sistemas y aplicacion
+              Recurso humano especializado en auditoría de sistemas y aplicación
               de estándares internacionales a los sistemas de información de
               acuerdo a los modelos COBIT-COSO-MECI.
             </li>
@@ -198,20 +226,26 @@ export const Servicios = () => {
           <ul className="servicios-contenedor-texto-caracteristicas">
             <li>
               Desarrollo y puesta en marcha de aplicaciones especializadas y
-              especificas para su empresa
+              específicas para su empresa.
             </li>
-            <li>Creación de portales corporativos y sistemas de información</li>
+            <li>
+              Creación de portales corporativos y sistemas de información.
+            </li>
           </ul>
           <LineDivisor color="rgba(111, 90, 238, 0.8)" />
         </div>
-        <img className="servicios-contenedor-img" src={IPortalWeb} alt="Logo" />
+        <img
+          className="servicios-contenedor-img"
+          src={IPortalWeb}
+          alt="portalWebImg"
+        />
       </div>
       <hr />
       <div className="servicios-contenedor" id="Planeacion">
         <img
           className="servicios-contenedor-img"
           src={IPlaneacion}
-          alt="Logo"
+          alt="planeacionImg"
         />
         <div className="servicios-contenedor-texto">
           <h3>Planeación</h3>
@@ -219,7 +253,7 @@ export const Servicios = () => {
             <li>
               Análisis, planeación y diseño de esquemas de contingencia,
               respaldo y recuperación a nivel de los datos dando continuidad al
-              negocio
+              negocio.
             </li>
           </ul>
           <LineDivisor color="rgba(160, 233, 45, 0.8)" />
@@ -231,8 +265,8 @@ export const Servicios = () => {
           <h3>Redes</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
             <li>
-              Diseño e implementación de redes alambricas e inalámbricas para la
-              conexión y administración de recursos empresariales
+              Diseño e implementación de redes alámbricas e inalámbricas para la
+              conexión y administración de recursos empresariales.
             </li>
           </ul>
           <LineDivisor color="rgba(189, 25, 230, 0.8)" />
@@ -244,15 +278,15 @@ export const Servicios = () => {
         <img
           className="servicios-contenedor-img"
           src={IInterventoria}
-          alt="Logo"
+          alt="interventoriaImg"
         />
         <div className="servicios-contenedor-texto">
-          <h3>Interventoria</h3>
+          <h3>Interventoría</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
-            <li>Reingenería en platafomas tecnológicas</li>
+            <li>Reingenería en platafomas tecnológicas.</li>
             <li>Data center</li>
-            <li>Esquemas de comunicaciones y seguridad informática</li>
-            <li>Aplicativos en producción</li>
+            <li>Esquemas de comunicaciones y seguridad informática.</li>
+            <li>Aplicativos en producción.</li>
           </ul>
           <LineDivisor color="rgba(20, 234, 209, 0.8)" />
         </div>
@@ -264,16 +298,20 @@ export const Servicios = () => {
           <ul className="servicios-contenedor-texto-caracteristicas">
             <li>
               Configuración de servidores: DNS, PROXY, FIREWALL, CORREO,
-              TERMINAL SERVICE, VPN y de aplicación de base de datos
+              TERMINAL SERVICE, VPN y de aplicación de base de datos.
             </li>
             <li>
               Admnistración, diseño y creación de planes de mantenimiento para
-              vases de datos
+              bases de datos.
             </li>
           </ul>
           <LineDivisor color="rgba(189, 25, 230, 0.8)" />
         </div>
-        <img className="servicios-contenedor-img" src={ISistemas} alt="Logo" />
+        <img
+          className="servicios-contenedor-img"
+          src={ISistemas}
+          alt="sistemasImg"
+        />
       </div>
     </div>
   );

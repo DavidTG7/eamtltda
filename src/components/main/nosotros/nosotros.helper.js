@@ -27,7 +27,7 @@ const servicios = [
     imagen: analisisSeguridad,
   },
   {
-    nombre: "Conctrol de Acceso",
+    nombre: "Control de Acceso",
     href: "Control",
     imagen: controlAcceso,
   },
@@ -52,7 +52,7 @@ const servicios = [
     imagen: personalSeguridad,
   },
   {
-    nombre: "Auditoria",
+    nombre: "Auditoría",
     href: "Auditoria",
     imagen: auditoria,
   },
@@ -67,7 +67,7 @@ const servicios = [
     imagen: sgc,
   },
   {
-    nombre: "Auditoria de Sistemas",
+    nombre: "Auditoría de Sistemas",
     href: "AuditoriaSistemas",
     imagen: auditoriaSistemas,
   },
@@ -87,7 +87,7 @@ const servicios = [
     imagen: redes,
   },
   {
-    nombre: "Interventoria",
+    nombre: "Interventoría",
     href: "Interventoria",
     imagen: interventoria,
   },

@@ -4,7 +4,7 @@
   display: flex;
   gap: 2rem;
   color: white;
-  background: rgb(45 165 240);
+  background: #00348f;
   padding: 2rem;
 }
 
@@ -38,8 +38,15 @@
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
-  box-shadow: 0 0 8px rgb(41, 114, 40);
+  box-shadow: 0 4px 5px rgb(19, 38, 20);
   cursor: pointer;
+  transition: .2s;
+}
+
+#whatsapp-box:hover,
+#whatsapp-box:focus {
+  transform: scale(1.08);
+  outline: none;
 }
 
 .datos-icon {
@@ -67,6 +74,11 @@
   display: flex;
   flex-flow: column;
   gap: 10px;
+}
+
+#formulario-contacto label {
+  display: flex;
+  flex-flow: column;
 }
 
 input:focus:required{
