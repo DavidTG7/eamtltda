@@ -36,16 +36,44 @@
   position: relative;
   height: 6rem;
   width: 100%;
-  animation: slider 40s infinite linear;
   display: flex;
   align-items: center;
   gap: 2rem;
-  
 }
 
-@keyframes slider {
+.adelante1 {
+  animation: adelante1 50s infinite linear;
+}
+
+@keyframes adelante1 {
   from{
     right: 149%;
+  }
+  to {
+    right: 0;
+  }
+}
+
+.atras1 {
+  animation: atras1 50s infinite linear;
+}
+
+@keyframes atras1 {
+  from{
+    right: 0;
+  }
+  to {
+    right: 129.5%;
+  }
+}
+
+.adelante2 {
+  animation: adelante2 40s infinite linear;
+}
+
+@keyframes adelante2 {
+  from{
+    right: 138.5%;
   }
   to {
     right: 0;

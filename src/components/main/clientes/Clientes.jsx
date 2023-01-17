@@ -21,15 +21,17 @@ export const Clientes = () => {
           </p>
         </div>
         <div className="clientes__slider">
-          <div className="clientes__slider-fotos">
+          <div className="clientes__slider-fotos adelante1">
             {imagesPublico}
             {imagesPublico}
           </div>
-          <div className="clientes__slider-fotos">
+          <div className="clientes__slider-fotos atras1">
             {imagenesCorporativo}
             {imagenesCorporativo}
           </div>
-          <div className="clientes__slider-fotos">
+          <div className="clientes__slider-fotos adelante2">
+            {imagenesEmpleados}
+            {imagenesEmpleados}
             {imagenesEmpleados}
             {imagenesEmpleados}
           </div>
