@@ -13,6 +13,9 @@ import IPlaneacion from "./image/Planeacion.png";
 import IRedes from "./image/redes.png";
 import IInterventoria from "./image/interventoria.png";
 import ISistemas from "./image/Sistemas.png";
+import ICiber from "./image/Ciberseguridad.png";
+import ITI from "./image/TI.png";
+
 
 import { LineDivisor } from "./servicios.styled";
 
@@ -310,6 +313,50 @@ export const Servicios = () => {
         <img
           className="servicios-contenedor-img"
           src={ISistemas}
+          alt="sistemasImg"
+        />
+      </div>
+      <hr />
+      <div className="servicios-contenedor" id="Interventoria">
+        <img
+          className="servicios-contenedor-img"
+          src={ICiber}
+          alt="interventoriaImg"
+        />
+        <div className="servicios-contenedor-texto">
+          <h3>Ciberseguridad</h3>
+          <ul className="servicios-contenedor-texto-caracteristicas">
+          <li>
+              Análisis de seguridad para detectar vulnerabilidades y amenazas potenciales.
+            </li>
+            <li>
+              Protección de los sistemas y redes de la empresa contra ataques cibernéticos.
+            </li>
+          </ul>
+          <LineDivisor color="rgba(20, 234, 209, 0.8)" />
+        </div>
+      </div>
+      <hr />
+      <div className="servicios-contenedor invertido" id="AdmiSistemas">
+        <div className="servicios-contenedor-texto">
+          <h3>Gobierno y Estrategia TI</h3>
+          <ul className="servicios-contenedor-texto-caracteristicas">
+            <li>
+              Establecer políticas, procedimientos y estándares para el uso de la tecnología en la empresa.
+            </li>
+            <li>
+              Planificar, ejecutar y controlar proyectos de tecnología de manera eficiente y efectiva.
+            </li>
+            <li>
+              Recolectar, analizar y utilizar datos para tomar decisiones informadas en la empresa.
+            </li>
+            
+          </ul>
+          <LineDivisor color="rgba(189, 25, 230, 0.8)" />
+        </div>
+        <img
+          className="servicios-contenedor-img"
+          src={ITI}
           alt="sistemasImg"
         />
       </div>

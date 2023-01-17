@@ -93,7 +93,7 @@ export const Empresa = () => {
             satisfacción de los Clientes y Usuarios de los servicios prestados,
             incluida la Comunidad, EAMT LTDA se propone:
           </ItemParagraph>
-          <ol className="ol-2column" type="a">
+          <ul className="ol-2column">
             <li>
               Garantizar las características de calidad en cuanto a oportunidad,
               seguridad, confiabilidad y asesoría establecidas por la Empresa y
@@ -130,7 +130,7 @@ export const Empresa = () => {
               inherentes a la operación, aplicando las acciones necesarias para
               mitigar su impacto en la gestión.
             </li>
-          </ol>
+          </ul>
           <LowDivisor color="rgba(29, 250, 0, 1)" />
         </ItemTextBox>
       </EmpresaSingleCard>
