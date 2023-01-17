@@ -17,7 +17,7 @@ export const Intro = () => {
                 src={logo}
                 alt="Logo-slider1"
               />
-              <p>
+              <p className="intro-texto">
                 Es una empresa colombiana con 25 años de experiencia en
                 Consultoría y Asesoría que apoya las organizaciones en la
                 auditoria de procesos, detección de riesgos, diseño de
@@ -43,7 +43,7 @@ export const Intro = () => {
                 src={logo}
                 alt="Logo-slider2"
               />
-              <p>
+              <p className="intro-texto">
                 Ponemos al servicio de nuestros aliados estratégicos la
                 experiencia adquirida en la participación de proyectos en el
                 sector público y privado, bajo la metodología de Auditoria,
