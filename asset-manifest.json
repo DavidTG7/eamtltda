@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/eamtltda/static/css/main.7b2e8d0d.css",
-    "main.js": "/eamtltda/static/js/main.5003495c.js",
+    "main.css": "/eamtltda/static/css/main.ef44191b.css",
+    "main.js": "/eamtltda/static/js/main.84109abc.js",
     "static/media/bg.jpg": "/eamtltda/static/media/bg.dd3302ab1417b212eae8.jpg",
     "static/media/objetivo.jpg": "/eamtltda/static/media/objetivo.cde94afdfab3eb7205f0.jpg",
     "static/media/mision.jpg": "/eamtltda/static/media/mision.b7515f8b65593c02143f.jpg",
     "static/media/calidad.jpg": "/eamtltda/static/media/calidad.d807f29562840f692283.jpg",
-    "static/media/Fondo_login2.png": "/eamtltda/static/media/Fondo_login2.908db4bc86a8fae3cf9c.png",
     "static/media/vision.jpg": "/eamtltda/static/media/vision.eda10ebfb88cf50beff1.jpg",
     "static/media/clientes_felices.png": "/eamtltda/static/media/clientes_felices.1db9a3f11c060c5a5c54.png",
     "static/media/empresario.png": "/eamtltda/static/media/empresario.00b4bf75e25928cbdc6a.png",
@@ -58,11 +57,11 @@
     "static/media/location.svg": "/eamtltda/static/media/location.6f3aa88e79f6a1e031c5a822757b9425.svg",
     "static/media/email.svg": "/eamtltda/static/media/email.56058da1f2ed96c18f68b647b2a9fed8.svg",
     "static/media/upArrow.svg": "/eamtltda/static/media/upArrow.0c1b14a0a92f9039299a2a8b79c68d49.svg",
-    "main.7b2e8d0d.css.map": "/eamtltda/static/css/main.7b2e8d0d.css.map",
-    "main.5003495c.js.map": "/eamtltda/static/js/main.5003495c.js.map"
+    "main.ef44191b.css.map": "/eamtltda/static/css/main.ef44191b.css.map",
+    "main.84109abc.js.map": "/eamtltda/static/js/main.84109abc.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b2e8d0d.css",
-    "static/js/main.5003495c.js"
+    "static/css/main.ef44191b.css",
+    "static/js/main.84109abc.js"
   ]
 }
