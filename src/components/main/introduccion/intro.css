@@ -1,7 +1,3 @@
-.intro {
-  border: solid blue 3px;
-}
-
 .eamtTitleH1-hidden {
   position: absolute;
   color: transparent;
@@ -15,7 +11,6 @@
   width: 200px;
   height: 450px;
   object-fit: cover;
-  /* filter: invert(0.4) sepia(1) hue-rotate(20deg); */
 }
 
 .intro-carrusel-contenido-imagen {
@@ -78,6 +73,10 @@
   .intro-carousel .carousel-control-next {
     display: none;
   }
+  .intro-texto{
+    text-align: justify;
+    padding: 0px !important;
+  }
 }
 
 .carousel-dark .carousel-indicators button {
@@ -92,4 +91,9 @@
 .carousel-control-next-icon {
   filter: brightness(0) saturate(100%) invert(61%) sepia(69%) saturate(1099%)
     hue-rotate(143deg) brightness(103%) contrast(103%) !important;
+}
+
+.intro-texto{
+  text-align: justify;
+  padding: 0px 40px 0px 20px;
 }
