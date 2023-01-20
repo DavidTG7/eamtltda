@@ -99,7 +99,7 @@ export const Contacto = () => {
         <h3>Contáctanos por WhatsApp</h3>
         <a
           id="whatsapp-box"
-          href="https://wa.me/+573006155805"
+          href="https://wa.me/+573136473798"
           target="_blank"
           rel="noreferrer"
         >

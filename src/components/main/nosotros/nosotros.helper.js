@@ -13,6 +13,8 @@ import software from "./images/softwareWebPlano.svg";
 import planeacion from "./images/planeacionPlano.svg";
 import redes from "./images/redesPlano.svg";
 import interventoria from "./images/interventoriaPlano.svg";
+import ciberSeguridad from "./images/cyberSeguridadPlano.svg";
+import estrategiaTI from "./images/estrategiaTIPlano.svg";
 import "./nosotros.css";
 
 const servicios = [
@@ -90,6 +92,16 @@ const servicios = [
     nombre: "Interventoría",
     href: "Interventoria",
     imagen: interventoria,
+  },
+  {
+    nombre: "CiberSeguridad",
+    href: "ciberSeguridad",
+    imagen: ciberSeguridad,
+  },
+  {
+    nombre: "Gobierno y Estrategia TI",
+    href: "estrategiaTI",
+    imagen: estrategiaTI,
   },
 ];
 

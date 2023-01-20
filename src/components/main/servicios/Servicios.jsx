@@ -317,7 +317,7 @@ export const Servicios = () => {
         />
       </div>
       <hr />
-      <div className="servicios-contenedor" id="Interventoria">
+      <div className="servicios-contenedor" id="ciberSeguridad">
         <img
           className="servicios-contenedor-img"
           src={ICiber}
@@ -337,7 +337,7 @@ export const Servicios = () => {
         </div>
       </div>
       <hr />
-      <div className="servicios-contenedor invertido" id="AdmiSistemas">
+      <div className="servicios-contenedor invertido" id="estrategiaTI">
         <div className="servicios-contenedor-texto">
           <h3>Gobierno y Estrategia TI</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
