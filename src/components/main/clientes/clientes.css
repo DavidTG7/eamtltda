@@ -92,10 +92,32 @@
   margin: 2rem;
 }
 
-.clientes__sectores-cards {
+/* .clientes__sectores-cards {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   gap: 1rem;
   padding: 1rem;
+} */
+
+.clientes__container h4 {
+  color: #fff;
+  /* background: #00348f; */
+  padding: .5rem 1rem;
+  /* border-radius: 5px; */
+  width:100%;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+.clientes__h4-1 {
+  background: #7c0019;
+}
+
+.clientes__h4-2 {
+  background: #838110;
+}
+
+.clientes__h4-3 {
+  background: #226200;
 }
