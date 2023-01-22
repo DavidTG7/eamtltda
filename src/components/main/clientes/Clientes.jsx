@@ -41,19 +41,19 @@ export const Clientes = () => {
         </div>
         <div className="clientes__botones">
           <button
-            className={isPublic && "clientes__botones-active"}
+            className={isPublic ? "clientes__botones-active" : null}
             onClick={handlePublic}
           >
             PÚBLICO Y PRIVADO
           </button>
           <button
-            className={isCorporative && "clientes__botones-active"}
+            className={isCorporative ? "clientes__botones-active" : null}
             onClick={handleCorporative}
           >
             CORPORATIVO SOLIDARIO Y FINANCIERO
           </button>
           <button
-            className={isEmployees && "clientes__botones-active"}
+            className={isEmployees ? "clientes__botones-active" : null}
             onClick={handleEmployees}
           >
             FONDO DE EMPLEADOS
