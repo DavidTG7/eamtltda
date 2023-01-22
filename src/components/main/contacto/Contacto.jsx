@@ -76,7 +76,7 @@ export const Contacto = () => {
     "Otro",
   ];
 
-  const allOptions = selectOptions.map((item) => <option>{item}</option>);
+  const allOptions = selectOptions.map((item, index) => <option key={`${item}-${index}`}>{item}</option>);
 
   return (
     <section id="contacto">
