@@ -26,6 +26,17 @@
   padding: 1rem;
   overflow: hidden;
   width: 2000px;
+  animation: aparecerSlider 1s linear;
+  transition: .2s;
+}
+
+@keyframes aparecerSlider {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .clientes__slider img {
@@ -92,14 +103,6 @@
   margin: 2rem;
 }
 
-/* .clientes__sectores-cards {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  gap: 1rem;
-  padding: 1rem;
-} */
-
 .clientes__container h4 {
   color: #fff;
   background: #00348f;
@@ -107,4 +110,50 @@
   width:100%;
   margin-top: 1rem;
   text-transform: uppercase;
+}
+
+.clientes__botones {
+  gap: .5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.clientes__botones button {
+  width: 30%;
+  text-align: center;
+  border: none;
+  padding: 1.2rem;
+  font-weight: 600;
+  outline: none;
+  background: rgb(213, 213, 213);
+  transition: .2s;
+}
+
+.clientes__botones-active {
+  background: #00348f !important;
+  color: #fff;
+}
+
+.clientes__botones button:hover,
+.clientes__botones button:focus {
+  background: linear-gradient(rgb(213, 213, 213), #fff 90%);
+}
+
+@media screen and (max-width: 1568px) {
+  .clientes__botones button {
+    padding: 0.9rem 1rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .clientes__botones button {
+    font-size: .9rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .clientes__botones button {
+    width: 90%;
+  }
 }
