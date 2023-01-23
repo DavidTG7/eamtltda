@@ -60,7 +60,7 @@ export const Empresa = () => {
             27001, ISO 27002, ISO 14000, que satisfagan las necesidades y
             expectativas de nuestros Clientes, para lo cual:
           </ItemParagraph>
-          <ol type="a">
+          <ul>
             <li>
               Contamos con un Recurso Humano competente, eficaz y comprometido
               con el mejoramiento continuo de nuestros procesos y
@@ -76,7 +76,7 @@ export const Empresa = () => {
               amenazas de riesgo relacionadas con la Implementación y
               Mantenimiento del Sistema de Gestión de Calidad.
             </li>
-          </ol>
+          </ul>
           <LowDivisor color="rgba(240, 31, 255, 1)" />
         </ItemTextBox>
       </EmpresaSingleCard>
