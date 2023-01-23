@@ -3,10 +3,6 @@
   color: transparent;
 }
 
-.intro-titulo {
-  color: green;
-}
-
 .intro-carrusel-imagen {
   width: 200px;
   height: 450px;
@@ -17,11 +13,6 @@
   width: 300px;
   object-fit: contain;
   margin-bottom: 2rem;
-}
-
-.carousel-caption {
-  background-color: aqua !important;
-  max-width: 600px;
 }
 
 .intro-contenedor {
@@ -57,13 +48,10 @@
   width: 300px;
 }
 .intro-carousel .carousel-control-prev {
-  /* position: absolute; */
   max-width: 50px;
-  /* top: 0; */
 }
 
 .intro-carousel .carousel-control-next {
-  /* position: absolute; */
   max-width: 50px;
 }
 
