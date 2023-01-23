@@ -18,7 +18,7 @@ export const Intro = () => {
                 alt="Logo-slider1"
               />
               <p className="intro-texto">
-                Es una empresa colombiana con 25 años de experiencia en
+                Es una empresa colombiana con 28 años de experiencia en
                 Consultoría y Asesoría que apoya las organizaciones en la
                 auditoria de procesos, detección de riesgos, diseño de
                 estrategias, ejecución de planes de acción y apoya las
