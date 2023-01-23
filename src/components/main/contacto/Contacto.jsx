@@ -27,7 +27,7 @@ export const Contacto = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_2cbrrth", "contact_form", form.current, PUBLIC_KEY)
+      .sendForm("service_h4zxx8s", "contact_form", form.current, PUBLIC_KEY)
       .then(
         (result) => {
           console.log(result);
@@ -93,7 +93,7 @@ export const Contacto = () => {
           </li>
           <li>
             <img className="datos-icon" src={email} alt="email-icon" />
-            <span>juanjrodriguezperez@gmail.com</span>
+            <span>directoreamtltda@gmail.com</span>
           </li>
         </ul>
         <h3>Contáctanos por WhatsApp</h3>
