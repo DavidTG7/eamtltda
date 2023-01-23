@@ -29,7 +29,7 @@ export const Servicios = () => {
           alt="riesgosImg"
         />
         <div className="servicios-contenedor-texto">
-          <h3>Gestion de Riesgos</h3>
+          <h3>Gestión de Riesgos</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
             <li>Análisis de Riesgos.</li>
             <li>Mantenimiento de mapas de riesgos.</li>
@@ -211,7 +211,7 @@ export const Servicios = () => {
           alt="auditoriaImg"
         />
         <div className="servicios-contenedor-texto">
-          <h3>Auditoria de Sistemas</h3>
+          <h3>Auditoría de Sistemas</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
             <li>
               Recurso humano especializado en auditoría de sistemas y aplicación
@@ -316,7 +316,7 @@ export const Servicios = () => {
               TERMINAL SERVICE, VPN y de aplicación de base de datos.
             </li>
             <li>
-              Admnistración, diseño y creación de planes de mantenimiento para
+              Administración, diseño y creación de planes de mantenimiento para
               bases de datos.
             </li>
           </ul>
