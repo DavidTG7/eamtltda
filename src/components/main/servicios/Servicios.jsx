@@ -313,7 +313,7 @@ export const Servicios = () => {
         <img
           className="servicios-contenedor-img"
           src={ISistemas}
-          alt="sistemasImg"
+          alt="Imagen Administración de Sistemas"
         />
       </div>
       <hr />
@@ -321,7 +321,7 @@ export const Servicios = () => {
         <img
           className="servicios-contenedor-img"
           src={ICiber}
-          alt="interventoriaImg"
+          alt="Imagen de Ciberseguridad"
         />
         <div className="servicios-contenedor-texto">
           <h3>Ciberseguridad</h3>
@@ -356,7 +356,7 @@ export const Servicios = () => {
         <img
           className="servicios-contenedor-img"
           src={ITI}
-          alt="sistemasImg"
+          alt="Imagen de Gobierno y Estrategia TI"
         />
       </div>
     </div>

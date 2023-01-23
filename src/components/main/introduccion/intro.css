@@ -74,7 +74,6 @@
     display: none;
   }
   .intro-texto{
-    text-align: justify;
     padding: 0px !important;
   }
 }
@@ -94,6 +93,5 @@
 }
 
 .intro-texto{
-  text-align: justify;
   padding: 0px 40px 0px 20px;
 }
