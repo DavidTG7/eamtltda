@@ -129,7 +129,7 @@ export const Contacto = () => {
           <input type="email" name="from_email" required />
         </label>
         <label>
-          Teléfono o celular:
+          Teléfono o Celular:
           <input type="text" name="from_phone" required />
         </label>
         <label>
