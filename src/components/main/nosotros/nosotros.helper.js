@@ -64,7 +64,8 @@ const servicios = [
     imagen: procesosProcedimientos,
   },
   {
-    nombre: "SGC",
+    nombre: "SGC-9001 ",
+    nombre_dos : "SGSI-27001",
     href: "SGC",
     imagen: sgc,
   },
@@ -105,11 +106,14 @@ const servicios = [
   },
 ];
 
-export const todosLosServicios = servicios.map(({ nombre, href, imagen }) => {
+export const todosLosServicios = servicios.map(({ nombre, href, imagen , nombre_dos}) => {
   return (
     <a href={`#${href}`} className="servicio-caja" key={nombre}>
       <img className="servicio-icono" src={imagen} alt={`logo-${nombre}`} />
-      <p>{nombre}</p>
+      <p>
+        {nombre}<br/>
+        {nombre_dos}
+      </p>
     </a>
   );
 });

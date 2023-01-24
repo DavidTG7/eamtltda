@@ -187,12 +187,12 @@ export const Servicios = () => {
       <hr />
       <div className="servicios-contenedor invertido" id="SGC">
         <div className="servicios-contenedor-texto">
-          <h3>SGC</h3>
+          <h3>SGC - SGSI</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
             <li>
               Diseño, implementación y puesta en marcha del sistema de gestión
               de calidad, de acuerdo a las directrices y políticas de la norma
-              ISO 9001 versióm 2000.
+              ISO 9001 versión 2000 y norma ISO 27001.
             </li>
           </ul>
           <LineDivisor color="rgba(241, 222, 36, 0.8)" />
@@ -257,6 +257,18 @@ export const Servicios = () => {
               Análisis, planeación y diseño de esquemas de contingencia,
               respaldo y recuperación a nivel de los datos dando continuidad al
               negocio.
+            </li>
+            <li>
+              Análisis, diseño e implementación del Manual de Políticas de Seguridad de la Información.(norma ISO 27011).
+            </li>
+            <li>
+              Análisis diseño e implementación del Manual de tratamiento de datos personales (Ley 1581 del 2013).
+            </li>
+            <li>
+              Análisis, diseño e implementación Manual de Habeas Data Financiero (Ley 1266 del 2008).
+            </li>
+            <li>
+              Análisis, diseño e implementación del SGSI de acuerdo a las directrices de la circular 36 de enero del 2022.
             </li>
           </ul>
           <LineDivisor color="rgba(160, 233, 45, 0.8)" />
@@ -349,6 +361,9 @@ export const Servicios = () => {
             </li>
             <li>
               Recolectar, analizar y utilizar datos para tomar decisiones informadas en la empresa.
+            </li>
+            <li>
+            Análisis diseño e implementación del Gobierno y Estrategia de TI de acuerdo a las directrices y estándares del modelo COBIT 5 e ITIL.
             </li>
             </ul>
           <LineDivisor color="rgba(189, 25, 230, 0.8)" />

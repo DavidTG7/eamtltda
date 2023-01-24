@@ -67,17 +67,27 @@ export const Contacto = () => {
     "Personal de Seguridad",
     "Auditoría",
     "Procesos y Procedimientos",
-    "SGC",
+    "SGC - SGCI",
     "Auditoría de Sistemas",
     "Software y Portales Web",
     "Planeación",
     "Redes",
     "Interventoría",
+    "Administración de Sistemas",
+    "Ciberseguridad",
+    "Gobierno y Estrategia TI",
     "Otro",
   ];
 
+  const selectOptionsRazon = [
+    "Cotización",
+    "Mensaje",
+    "Felicitación",
+    "Contacto"
+  ];
   const allOptions = selectOptions.map((item, index) => <option key={`${item}-${index}`}>{item}</option>);
 
+  const allOptionsRazon = selectOptionsRazon.map((item, index) => <option key={`${item}-${index}`}>{item}</option>);
   return (
     <section id="contacto">
       <div id="datos-contacto">
@@ -119,9 +129,27 @@ export const Contacto = () => {
           <input type="email" name="from_email" required />
         </label>
         <label>
+          Telefono o Celular:
+          <input type="text" name="from_phone" required />
+        </label>
+        <label>
+          Empresa:
+          <input type="text" name="from_empresa" required />
+        </label>
+        <label>
+          Cargo:
+          <input type="text" name="from_cargo" required />
+        </label>
+        <label>
           Motivo de contacto:
           <select name="servicio" required>
             {allOptions}
+          </select>
+        </label>
+        <label>
+          Razón del contacto:
+          <select name="razon" required>
+            {allOptionsRazon}
           </select>
         </label>
         <label>
