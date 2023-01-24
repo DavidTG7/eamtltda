@@ -139,7 +139,7 @@ export const Servicios = () => {
           <h3>Personal de Seguridad</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
             <li>
-              Recurso especializado en seguridad informática de acuerdo a las
+              Recurso humano especializado en seguridad informática de acuerdo a las
               directrices de las normas ISO 17799 - 27001 - 27002 (SGSI).
             </li>
           </ul>
@@ -191,7 +191,7 @@ export const Servicios = () => {
           <ul className="servicios-contenedor-texto-caracteristicas">
             <li>
               Diseño, implementación y puesta en marcha del sistema de gestión
-              de calidad, de acuerdo a las directrices y políticas de la norma
+              de calidad y el sistema de gestión de seguridad de la información de acuerdo a las directrices y políticas de las normas
               ISO 9001 versión 2000 y norma ISO 27001.
             </li>
           </ul>
@@ -258,17 +258,21 @@ export const Servicios = () => {
               respaldo y recuperación a nivel de los datos dando continuidad al
               negocio.
             </li>
+          </ul>
+          <ul className="servicios-contenedor-texto-caracteristicas">
+            <strong>Análisis, diseño, capacitación e implementación de:</strong>
+            <br/>
             <li>
-              Análisis, diseño e implementación del Manual de Políticas de Seguridad de la Información.(norma ISO 27011).
+              Manual de Políticas de Seguridad de la Información. (norma ISO 2701).
             </li>
             <li>
-              Análisis diseño e implementación del Manual de tratamiento de datos personales (Ley 1581 del 2013).
+            Manual de tratamiento de datos personales (Ley 1581 del 2012).
             </li>
             <li>
-              Análisis, diseño e implementación Manual de Habeas Data Financiero (Ley 1266 del 2008).
+            Manual de Habeas Data Financiero (Ley 1266 del 2008).
             </li>
             <li>
-              Análisis, diseño e implementación del SGSI de acuerdo a las directrices de la circular 36 de enero del 2022.
+            SGSI de acuerdo a las directrices de la norma ISO 27001 y dando cumplimiento a la Circular 036 de 2022 emitida por la Superintendencia de Economía Solidaria SUPERSOLIDARIA.
             </li>
           </ul>
           <LineDivisor color="rgba(160, 233, 45, 0.8)" />
@@ -363,7 +367,7 @@ export const Servicios = () => {
               Recolectar, analizar y utilizar datos para tomar decisiones informadas en la empresa.
             </li>
             <li>
-            Análisis diseño e implementación del Gobierno y Estrategia de TI de acuerdo a las directrices y estándares del modelo COBIT 5 e ITIL.
+            Análisis diseño e implementación del Gobierno y Estrategia de TI de acuerdo a las directrices y estándares del modelo COBIT V5.0 e ITIL V4.0.
             </li>
             </ul>
           <LineDivisor color="rgba(189, 25, 230, 0.8)" />

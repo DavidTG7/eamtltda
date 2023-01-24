@@ -143,12 +143,14 @@ export const Contacto = () => {
         <label>
           Motivo de contacto:
           <select name="servicio" required>
+            <option value=""></option>
             {allOptions}
           </select>
         </label>
         <label>
           Razón del contacto:
           <select name="razon" required>
+            <option value=""></option>
             {allOptionsRazon}
           </select>
         </label>
