@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/eamtltda/static/css/main.99a7720e.css",
-    "main.js": "/eamtltda/static/js/main.cf4f6b3f.js",
+    "main.js": "/eamtltda/static/js/main.ba469347.js",
     "static/media/objetivo.jpg": "/eamtltda/static/media/objetivo.9dd243f08736a82a63ff.jpg",
     "static/media/clientes_felices.png": "/eamtltda/static/media/clientes_felices.1db9a3f11c060c5a5c54.png",
     "static/media/mision.jpg": "/eamtltda/static/media/mision.55b4000b1cc33ffbc09f.jpg",
@@ -11,6 +11,7 @@
     "static/media/bg.jpg": "/eamtltda/static/media/bg.34a0bc823a95639d08de.jpg",
     "static/media/quindio.png": "/eamtltda/static/media/quindio.39e2d40753d4f3e5e4d1.png",
     "static/media/Sistemas.png": "/eamtltda/static/media/Sistemas.067f9f77b326aeb50283.png",
+    "static/media/Logo_Editado.png": "/eamtltda/static/media/Logo_Editado.b344676ceeb36e9f0cbb.png",
     "static/media/interventoria.png": "/eamtltda/static/media/interventoria.e9f1120efb9d8683eebb.png",
     "static/media/Planeacion.png": "/eamtltda/static/media/Planeacion.63508e49ae314272e498.png",
     "static/media/PoliticasDeSeguridad.png": "/eamtltda/static/media/PoliticasDeSeguridad.10d668120a0429415b47.png",
@@ -26,7 +27,6 @@
     "static/media/UBPD.png": "/eamtltda/static/media/UBPD.8db6a2b915cb9879fe7e.png",
     "static/media/redes.png": "/eamtltda/static/media/redes.57dc4d2cffa97908de2b.png",
     "static/media/PersonalSeguridad.png": "/eamtltda/static/media/PersonalSeguridad.8a4f75a1203f9ff41c7c.png",
-    "static/media/Logo_Editado.png": "/eamtltda/static/media/Logo_Editado.9b4cbf640fce69e9bfab.png",
     "static/media/Ciberseguridad.png": "/eamtltda/static/media/Ciberseguridad.50ab127174faebb2cd50.png",
     "static/media/4-72.png": "/eamtltda/static/media/4-72.e48756b86a1d6bcaff07.png",
     "static/media/Congente.png": "/eamtltda/static/media/Congente.79bf40a250db818e51a0.png",
@@ -69,10 +69,10 @@
     "static/media/email.svg": "/eamtltda/static/media/email.56058da1f2ed96c18f68b647b2a9fed8.svg",
     "static/media/upArrow.svg": "/eamtltda/static/media/upArrow.0c1b14a0a92f9039299a2a8b79c68d49.svg",
     "main.99a7720e.css.map": "/eamtltda/static/css/main.99a7720e.css.map",
-    "main.cf4f6b3f.js.map": "/eamtltda/static/js/main.cf4f6b3f.js.map"
+    "main.ba469347.js.map": "/eamtltda/static/js/main.ba469347.js.map"
   },
   "entrypoints": [
     "static/css/main.99a7720e.css",
-    "static/js/main.cf4f6b3f.js"
+    "static/js/main.ba469347.js"
   ]
 }
