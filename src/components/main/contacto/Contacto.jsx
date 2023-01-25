@@ -18,7 +18,6 @@ export const Contacto = () => {
   let myTimeout;
 
   useEffect(() => {
-    console.log("after setTimeout");
     clearTimeout(myTimeout);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isSuccess]);
@@ -34,7 +33,6 @@ export const Contacto = () => {
           if (result.status === 200) {
             setIsSuccess(true);
             myTimeout = setTimeout(() => {
-              console.log("setTimeout");
               setIsSuccess(false);
             }, 4000);
             document.getElementById("formulario-contacto").reset();
