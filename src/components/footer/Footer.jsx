@@ -11,7 +11,7 @@ export const Footer = () => {
       <div className="footer__contador">
         <img
           alt="contador de visitas"
-          src="https://websmultimedia.com/contador-de-visitas.php?id=8421"
+          src="https://websmultimedia.com/contador-de-visitas.php?id=8465"
         />
       </div>
       <div className="footer__cubierta-contador" />
