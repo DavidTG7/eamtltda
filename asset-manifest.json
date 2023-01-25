@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/eamtltda/static/css/main.9fd7e819.css",
-    "main.js": "/eamtltda/static/js/main.7ca99f45.js",
+    "main.js": "/eamtltda/static/js/main.5cc3fa21.js",
     "static/media/objetivo.jpg": "/eamtltda/static/media/objetivo.9dd243f08736a82a63ff.jpg",
     "static/media/clientes_felices.png": "/eamtltda/static/media/clientes_felices.1db9a3f11c060c5a5c54.png",
     "static/media/mision.jpg": "/eamtltda/static/media/mision.55b4000b1cc33ffbc09f.jpg",
@@ -69,10 +69,10 @@
     "static/media/email.svg": "/eamtltda/static/media/email.56058da1f2ed96c18f68b647b2a9fed8.svg",
     "static/media/upArrow.svg": "/eamtltda/static/media/upArrow.0c1b14a0a92f9039299a2a8b79c68d49.svg",
     "main.9fd7e819.css.map": "/eamtltda/static/css/main.9fd7e819.css.map",
-    "main.7ca99f45.js.map": "/eamtltda/static/js/main.7ca99f45.js.map"
+    "main.5cc3fa21.js.map": "/eamtltda/static/js/main.5cc3fa21.js.map"
   },
   "entrypoints": [
     "static/css/main.9fd7e819.css",
-    "static/js/main.7ca99f45.js"
+    "static/js/main.5cc3fa21.js"
   ]
 }
