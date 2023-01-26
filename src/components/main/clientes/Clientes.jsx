@@ -50,7 +50,7 @@ export const Clientes = () => {
             className={isCorporative ? "clientes__botones-active" : null}
             onClick={handleCorporative}
           >
-            CORPORATIVO SOLIDARIO Y FINANCIERO
+            COOPERATIVO SOLIDARIO Y FINANCIERO
           </button>
           <button
             className={isEmployees ? "clientes__botones-active" : null}
