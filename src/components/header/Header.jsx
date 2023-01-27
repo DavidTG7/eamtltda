@@ -35,7 +35,7 @@ export const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <header>
+    <header className="eamt__header">
       <div className="eamt__navbar">
       <img src={logo} alt="logo-EAMT" />
         <div className="eamt__navbar-links">
