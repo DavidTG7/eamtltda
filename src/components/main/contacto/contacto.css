@@ -137,3 +137,9 @@ select option:disabled {
   .lottie-container {
     width: 20rem;
   }
+
+  .datos-logo {
+    filter: invert(100%) url(#color-filter);
+    width: 100%;
+    margin: auto;
+  }

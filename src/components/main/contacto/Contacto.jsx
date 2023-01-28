@@ -9,6 +9,7 @@ import whatsapp from "./images/whatsapp.svg";
 import phone from "./images/phone.svg";
 import location from "./images/location.svg";
 import email from "./images/email.svg";
+import logo from "./images/logo.png";
 import "./contacto.css";
 
 export const Contacto = () => {
@@ -113,6 +114,7 @@ export const Contacto = () => {
         >
           <img className="datos-icon" src={whatsapp} alt="whatsapp-icon" />
         </a>
+        <img className="datos-logo" src={logo} alt="Logo_Empresa"/>
       </div>
       <div id="divisor-contactos" />
       <form id="formulario-contacto" ref={form} onSubmit={sendEmail}>
