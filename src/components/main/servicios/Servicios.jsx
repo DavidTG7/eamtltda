@@ -38,6 +38,20 @@ export const Servicios = () => {
             <li>Administración de incidentes de seguridad.</li>
             <li>Diseño de procedimientos de seguridad.</li>
           </ul>
+          {/* <LineDivisor color="rgba(29, 250, 0, 1)" /> */}
+            <h3>Riesgo Operativo</h3>
+            <ul className="servicios-contenedor-texto-caracteristicas">
+              <li>Identificación, Medición o Evaluación.</li>
+              <li>Control o Mitigación.</li>
+              <li>Monitoreo.</li>
+              <li>Diseño de Políticas y Procedimientos.</li>
+              <li>Documentación.</li>
+              <li>Estructura organizativa.</li>
+              <li>Registro de eventos de riesgo operativo.</li>
+              <li>Infraestructura tecnológica.</li>
+              <li>Divulgación de información.</li>
+              <li>Capacitación.</li>
+            </ul>
           <LineDivisor color="rgba(29, 250, 0, 1)" />
         </div>
       </div>

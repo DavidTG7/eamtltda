@@ -15,7 +15,11 @@ export const Ubicacion = () => {
         loading="lazy"
         className="mapa"
       ></iframe>
-    </div>
+    {/* <div style="text-align:center;">
+      <div style="margin:8px 0px 4px;"><a href="https://www.calameo.com/books/007286580ca28039afe21" target="_blank">Portafolio De Servicios Eamt Ltda</a></div><iframe src="//v.calameo.com/?bkcode=007286580ca28039afe21&mode=mini" width="480" height="300" frameborder="0" scrolling="no" allowtransparency allowfullscreen style="margin:0 auto;"></iframe><div style="margin:4px 0px 8px;"><a href="http://www.calameo.com/" target="_blank">Read more publications on Calaméo</a>
+      </div>
+    </div> */}
+  </div>
   );
 };
 
