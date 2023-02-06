@@ -22,7 +22,7 @@ import { LineDivisor } from "./servicios.styled";
 export const Servicios = () => {
   return (
     <div className="contenedor-servicios-general">
-      <div className="servicios-contenedor" id="Riesgos">
+      <div className="servicios-contenedor ancla" id="Riesgos">
         <img
           className="servicios-contenedor-img"
           src={IRiesgos}
@@ -39,7 +39,7 @@ export const Servicios = () => {
             <li>Diseño de procedimientos de seguridad.</li>
           </ul>
           {/* <LineDivisor color="rgba(29, 250, 0, 1)" /> */}
-            <h3>Riesgo Operativo</h3>
+          <h3>Riesgo Operativo</h3>
             <ul className="servicios-contenedor-texto-caracteristicas">
               <li>Identificación, Medición o Evaluación.</li>
               <li>Control o Mitigación.</li>
@@ -51,12 +51,12 @@ export const Servicios = () => {
               <li>Infraestructura tecnológica.</li>
               <li>Divulgación de información.</li>
               <li>Capacitación.</li>
-            </ul>
+          </ul>
           <LineDivisor color="rgba(29, 250, 0, 1)" />
         </div>
       </div>
       <hr />
-      <div className="servicios-contenedor invertido" id="AnalisSeguridad">
+      <div className="servicios-contenedor invertido ancla" id="AnalisSeguridad">
         <div className="servicios-contenedor-texto">
           <h3>Análisis de Seguridad</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
@@ -73,7 +73,7 @@ export const Servicios = () => {
         />
       </div>
       <hr />
-      <div className="servicios-contenedor" id="Control">
+      <div className="servicios-contenedor ancla" id="Control">
         <img
           className="servicios-contenedor-img"
           src={IControlDeAcesso}
@@ -93,7 +93,7 @@ export const Servicios = () => {
       </div>
       <hr />
       <div className="servicios-contenedor invertido">
-        <div className="servicios-contenedor-texto" id="PSeguridad">
+        <div className="servicios-contenedor-texto ancla" id="PSeguridad">
           <h3>Políticas de Seguridad</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
             <li>Diseño y desarrollo de políticas y estándares de seguridad.</li>
@@ -109,7 +109,7 @@ export const Servicios = () => {
         />
       </div>
       <hr />
-      <div className="servicios-contenedor" id="ISeguridad">
+      <div className="servicios-contenedor ancla" id="ISeguridad">
         <img
           className="servicios-contenedor-img"
           src={IMonitoreo}
@@ -127,7 +127,7 @@ export const Servicios = () => {
         </div>
       </div>
       <hr />
-      <div className="servicios-contenedor invertido " id="Proteccion">
+      <div className="servicios-contenedor invertido ancla" id="Proteccion">
         <div className="servicios-contenedor-texto">
           <h3>Protección</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
@@ -143,7 +143,7 @@ export const Servicios = () => {
         />
       </div>
       <hr />
-      <div className="servicios-contenedor" id="PerSeguridad">
+      <div className="servicios-contenedor ancla" id="PerSeguridad">
         <img
           className="servicios-contenedor-img"
           src={IPersonalSeguridad}
@@ -161,7 +161,7 @@ export const Servicios = () => {
         </div>
       </div>
       <hr />
-      <div className="servicios-contenedor invertido" id="Auditoria">
+      <div className="servicios-contenedor invertido ancla" id="Auditoria">
         <div className="servicios-contenedor-texto">
           <h3>Auditoría</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
@@ -178,7 +178,7 @@ export const Servicios = () => {
         />
       </div>
       <hr />
-      <div className="servicios-contenedor" id="Procesos">
+      <div className="servicios-contenedor ancla" id="Procesos">
         <img
           className="servicios-contenedor-img"
           src={IProcesos}
@@ -199,7 +199,7 @@ export const Servicios = () => {
         </div>
       </div>
       <hr />
-      <div className="servicios-contenedor invertido" id="SGC">
+      <div className="servicios-contenedor invertido ancla" id="SGC">
         <div className="servicios-contenedor-texto">
           <h3>SGC - SGSI</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
@@ -218,7 +218,7 @@ export const Servicios = () => {
         />
       </div>
       <hr />
-      <div className="servicios-contenedor" id="AuditoriaSistemas">
+      <div className="servicios-contenedor ancla" id="AuditoriaSistemas">
         <img
           className="servicios-contenedor-img"
           src={IAuditoria}
@@ -237,7 +237,7 @@ export const Servicios = () => {
         </div>
       </div>
       <hr />
-      <div className="servicios-contenedor invertido" id="SoftwareWeb">
+      <div className="servicios-contenedor invertido ancla" id="SoftwareWeb">
         <div className="servicios-contenedor-texto">
           <h3>Software y Portales Web</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
@@ -258,7 +258,7 @@ export const Servicios = () => {
         />
       </div>
       <hr />
-      <div className="servicios-contenedor" id="Planeacion">
+      <div className="servicios-contenedor ancla" id="Planeacion">
         <img
           className="servicios-contenedor-img"
           src={IPlaneacion}
@@ -293,7 +293,7 @@ export const Servicios = () => {
         </div>
       </div>
       <hr />
-      <div className="servicios-contenedor invertido" id="Redes">
+      <div className="servicios-contenedor invertido ancla" id="Redes">
         <div className="servicios-contenedor-texto">
           <h3>Redes</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
@@ -307,7 +307,7 @@ export const Servicios = () => {
         <img className="servicios-contenedor-img" src={IRedes} alt="redesImg" />
       </div>
       <hr />
-      <div className="servicios-contenedor" id="Interventoria">
+      <div className="servicios-contenedor ancla" id="Interventoria">
         <img
           className="servicios-contenedor-img"
           src={IInterventoria}
@@ -325,7 +325,7 @@ export const Servicios = () => {
         </div>
       </div>
       <hr />
-      <div className="servicios-contenedor invertido" id="AdmiSistemas">
+      <div className="servicios-contenedor invertido ancla" id="AdmiSistemas">
         <div className="servicios-contenedor-texto">
           <h3>Administración de Sistemas</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
@@ -347,7 +347,7 @@ export const Servicios = () => {
         />
       </div>
       <hr />
-      <div className="servicios-contenedor" id="ciberSeguridad">
+      <div className="servicios-contenedor ancla" id="ciberSeguridad">
         <img
           className="servicios-contenedor-img"
           src={ICiber}
@@ -367,7 +367,7 @@ export const Servicios = () => {
         </div>
       </div>
       <hr />
-      <div className="servicios-contenedor invertido" id="estrategiaTI">
+      <div className="servicios-contenedor invertido ancla" id="estrategiaTI">
         <div className="servicios-contenedor-texto">
           <h3>Gobierno y Estrategia TI</h3>
           <ul className="servicios-contenedor-texto-caracteristicas">
@@ -384,7 +384,7 @@ export const Servicios = () => {
             Análisis diseño e implementación del Gobierno y Estrategia de TI de acuerdo a las directrices y estándares del modelo COBIT V5.0 e ITIL V4.0.
             </li>
             </ul>
-          <LineDivisor color="rgba(189, 25, 230, 0.8)" />
+          <LineDivisor color="rgba(189, 25, 230, 0.8)" id="clientes" />
         </div>
         <img
           className="servicios-contenedor-img"

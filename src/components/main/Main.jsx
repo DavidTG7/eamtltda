@@ -5,6 +5,7 @@ import { Servicios } from "./servicios/Servicios";
 import { Clientes } from "./clientes/Clientes";
 import { Ubicacion } from "./ubicacion/Ubicacion";
 import { Contacto } from "./contacto/Contacto";
+import { Portafolio } from "./portafolio/Portafolio";
 
 import "./main.css";
 
@@ -16,6 +17,7 @@ export const Main = () => {
       <Nosotros />
       <Servicios />
       <Clientes />
+      <Portafolio />
       <Contacto />
       <Ubicacion />
     </main>

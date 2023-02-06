@@ -30,7 +30,7 @@ export const Clientes = () => {
 
   return (
     <>
-      <div id="clientes" className="clientes__container">
+      <div className="clientes__container">
         <h3 className="clientes__title">NUESTROS CLIENTES</h3>
         <hr />
         <div className="clientes__sectores">

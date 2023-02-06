@@ -27,6 +27,11 @@ const Links = ({ setToggleMenu }) => {
           Contacto
         </a>
       </li>
+      <li>
+        <a onClick={() => setToggleMenu(false)} href="#portafolio">
+          Portafolio
+        </a>
+      </li>
     </ul>
   );
 };
@@ -35,7 +40,7 @@ export const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <header>
+    <header className="eamt_flotante">
       <div className="eamt__navbar">
       <img src={logo} alt="logo-EAMT" />
         <div className="eamt__navbar-links">

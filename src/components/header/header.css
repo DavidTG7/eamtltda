@@ -78,7 +78,7 @@
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1000px) {
   .eamt__navbar-links {
     display: none;
   }
@@ -88,9 +88,30 @@
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1000px) {
   .eamt__navbar {
     align-items: center;
     padding-bottom: 1.3rem;
+  }
+}
+
+.eamt_flotante{
+  position: fixed;
+  width: 70%;
+  margin: auto;
+  z-index: 100;
+}
+
+@media screen and (max-width: 750px){
+
+  .eamt_flotante {
+      width: 95% !important;
+  }
+}
+
+@media screen and (max-width: 1200px)
+{
+  .eamt_flotante  {
+      width: 85%;
   }
 }

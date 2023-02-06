@@ -88,7 +88,7 @@ export const Contacto = () => {
 
   const allOptionsRazon = selectOptionsRazon.map((item, index) => <option key={`${item}-${index}`}>{item}</option>);
   return (
-    <section id="contacto">
+    <section id="contacto" className="ancla">
       <div id="datos-contacto">
         <h2 id="datos-contacto-titulo">DATOS DE CONTACTO</h2>
         <ul id="datos-contacto-lista">
