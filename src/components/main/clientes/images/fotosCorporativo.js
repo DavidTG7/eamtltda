@@ -1,10 +1,10 @@
 import microempresas from "./microempresas.jpg";
 import commuldesa from "./commuldesa.jpg";
 import coonfie from "./coonfie.jpg";
-import Canapro from "./Canapro.png";
-import coofisam from "./coofisam.png";
-import cooptenjo from "./cooptenjo.png";
-import Congente from "./Congente.png";
+import Canapro from "./Canapro.jpg";
+import coofisam from "./coofisam.jpg";
+import cooptenjo from "./cooptenjo.jpg";
+import Congente from "./Congente.jpg";
 import Cofinal from "./Cofinal.jpg";
 import vomerciacoop from "./vomerciacoop.jpg";
 import fincomercio from "./fincomercio.jpg";
@@ -19,7 +19,7 @@ import Cfa from "./Cfa.jpg";
 import Cofincafe from "./Cofincafe.jpg";
 import UltraHuila from "./UltraHuila.jpg";
 import BancoAgrario from "./BancoAgrario.jpg";
-import Bancolombia from "./Bancolombia.png";
+import Bancolombia from "./Bancolombia.jpg";
 import BBVA from "./BBVA.jpg";
 
 export const imagenesCorporativo = (

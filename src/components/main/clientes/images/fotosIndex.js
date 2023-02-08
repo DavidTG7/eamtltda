@@ -1,16 +1,16 @@
 import Funat from "./funat.jpg";
 import ACI from "./aci.jpg";
-import Apeles from "./Apeles.png";
+import Apeles from "./Apeles.jpg";
 import TodoSistemas from "./todoSistemas.jpg";
 import Management from "./management.jpg";
 import Sumared from "./sumared.jpg";
-import Emcarlogo from "./Emcarlogo.png";
+import Emcarlogo from "./Emcarlogo.jpg";
 import world from "./world.jpg";
 import Ada from "./ada.jpg";
 import positiva from "./positiva.jpg";
 import DCCA from "./DCCA.jpg";
 import seguro_social from "./seguro_social.jpg";
-import quindio from "./quindio.png";
+import quindio from "./quindio.jpg";
 import previsora from "./previsora.jpg";
 import Cuatro72 from "./4-72.png";
 import utp from "./utp.jpg";
@@ -19,8 +19,8 @@ import superintendencia from "./superintendencia.jpg";
 import CRQ from "./CRQ.jpg";
 import oleoflores from "./oleoflores.jpg";
 import mintic from "./mintic.jpg";
-import anh from "./anh.png";
-import UBPD from "./UBPD.png";
+import anh from "./anh.jpg";
+import UBPD from "./UBPD.jpg";
 
 export const imagesPublico = (
   <>
