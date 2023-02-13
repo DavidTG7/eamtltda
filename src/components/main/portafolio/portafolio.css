@@ -3,9 +3,9 @@
   display: flex;
   background-color: #fff;
   padding: 2rem;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 80rem;
 }
 
 #portafolio h3 {
@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.portafolio-imagen{
+.portafolio-imagen {
   width: 100%;
 }
 
@@ -25,36 +25,31 @@ iframe {
   height: 500px;
 }
 
-
-.stf__parent{
+.stf__parent {
   min-width: 200px !important;
 }
-.portafolio-contenedor{
+/* .portafolio-contenedor{
   background-color: red;
   width: 100%;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
+} */
 
 @media screen and (max-width: 1000px) {
-  .stf__parent{
+  .stf__parent {
     width: 100%;
   }
-  .portafolio-contenedor{
+  .portafolio-contenedor {
     background-color: pink;
     width: 100%;
   }
-
- 
 }
 
-@media screen and (min-width: 400px){
+@media screen and (min-width: 400px) {
   /* .stf__item{
     width: 500px !important;
   }
    */
 }
- 
